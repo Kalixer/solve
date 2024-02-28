@@ -1,0 +1,68 @@
+.AboutUs {
+    height: 100vh;
+    width: 100vw;
+    // border: solid 1px red;
+
+    display: flex;
+}
+.AboutUs .contentDescript {
+    width: 50vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: flex-start;
+}
+.AboutUs .contentDescript .text {
+    // border: solid 1px blue;
+    margin: 12rem 6rem 0 10rem;
+}
+.AboutUs .contentDescript .text p{
+    padding: .6rem;
+    font-size: 2.2rem;
+}
+.AboutUs .contentDescript .text h1{
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+.AboutUs .contentDescript .text h3{
+    padding: .6rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.AboutUs .contentDescript .boton{
+    margin: 10rem;
+}
+.AboutUs .contentDescript .boton button {
+    height: 6rem;
+    width: 12rem;
+    border-radius: 6rem;
+    border: none;
+
+    font-size: 2rem;
+
+    color: white;
+
+    background-color: orange;
+}
+
+.AboutUs .imagePresentation {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // border: solid 2px green;
+}
+.AboutUs .imagePresentation figure{
+    margin-right: 10rem;
+    width: 30vw;
+    height: 80vh;
+    // border: solid 1px blue;
+}
+.AboutUs .imagePresentation figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

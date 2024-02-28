@@ -1,0 +1,42 @@
+.Header {
+    height: 10vh;
+    width: 100vw;
+    background-color: transparent;
+    // border: black 2px dotted;
+
+    position: absolute;
+    color: white;
+    filter: drop-shadow(0px 0px 6px black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Header .logo {
+    height: inherit;
+    width: 30vw;
+}
+.Header .logo img {
+    height: 100%;
+    padding-left: 4rem;
+}
+// .Header .logo svg{
+//     height: 100%;
+//     width: 100px;
+// }
+.Header li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    // border: solid 1px green;
+
+    height: 100%;
+
+    padding: 0 2rem;
+}
+.Header li ul {
+    font-size: 2rem;
+    margin: 1rem;
+    // border: solid 1px blue;
+    font-weight: bold;
+}

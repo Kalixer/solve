@@ -1,7 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from '../logo.svg';
+import '../styles/AppTest.scss'
 
-function App() {
+function AppTest() {
   return (
     <div className="App">
       <header className="App-header">
@@ -19,7 +20,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export { AppTest }
