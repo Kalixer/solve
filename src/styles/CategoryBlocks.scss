@@ -1,0 +1,35 @@
+.CategoryBlocks {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.CategoryBlocks .category {
+    height: inherit;
+    width: 25vw;
+    // border: blueviolet solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CategoryBlocks .category figure{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+.CategoryBlocks .category figure img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.CategoryBlocks .category p{
+    position: relative;
+    color: white;
+    font-size: 3rem;
+
+    filter: drop-shadow(0 0 8px black);
+}
