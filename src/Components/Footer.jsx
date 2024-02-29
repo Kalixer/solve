@@ -1,8 +1,9 @@
 import React from 'react'
 import '../styles/Footer.scss'
 import luthorLogo from '../assets/luthorLogo.png'
-import { VscTerminalLinux } from "react-icons/vsc";
-
+import { SlSocialFacebook } from "react-icons/sl";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { SiWhatsapp } from "react-icons/si";
 
 function Footer() {
   const copyright = `© 2024 Solve Ltda. Todos los derechos reservados`
@@ -14,18 +15,18 @@ function Footer() {
         <div className='infoBlock'>
           <img src={luthorLogo} alt="" />
           <div className='socialMedia'>
-            <VscTerminalLinux/>
-            <VscTerminalLinux/>
-            <VscTerminalLinux/>
+            <SiWhatsapp/>
+            <SlSocialFacebook/>
+            <SlSocialLinkedin/>
           </div>
         </div>
 
         <div className='infoBlock infoContact'>
           <h3>Contact</h3>
           <div className='info_P'>
-            <p>email@email.com</p>
-            <p>address</p>
-            <p>+569 xxxx xxxx</p>
+            <p>solve@solve.cl</p>
+            <p>#221b Baker Street, London</p>
+            <p>+569 7977 1139</p>
           </div>
         </div>
 
