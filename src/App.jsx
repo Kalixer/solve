@@ -1,16 +1,22 @@
+import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './styles/global.css'
 
 import { Layout } from './layout/Layout';
-import { Home } from './Components/Home';
+import { Home } from './Pages/HomePage';
 
 function App() {
-  return (
-    <>
-      <Layout>
-        <Home/>
-      </Layout>
-    </>
-  );
+    return (
+      <>
+        <BrowserRouter basename='/solve'>
+          <Layout>
+            <Routes>
+              <Route exact path='/' element={<Home/>}/>
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </>
+    );
 }
 
 export default App;
