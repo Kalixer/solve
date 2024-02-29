@@ -42,3 +42,9 @@
     // border: solid 1px blue;
     font-weight: bold;
 }
+.Header li a {
+    color: white;
+}
+.Header li a:hover ul{
+    color: rgba(0, 0, 0, 0.500);
+}
