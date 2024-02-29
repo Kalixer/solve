@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Footer.scss'
-import luthorLogo from '../assets/luthorLogo.png'
 import logoSolve from '../assets/logoSolve.png'
 import { SlSocialFacebook } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";

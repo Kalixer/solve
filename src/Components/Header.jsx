@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.scss';
-import luthorLogo from '../assets/luthorLogo.png';
 import logoSolve from '../assets/logoSolve.png'
 
 function Header() {
