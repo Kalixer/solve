@@ -15,7 +15,7 @@ function HomeIntroPictures() {
                 </figure>
             </div>
             <div className='pictureBox'>
-                <h1>Diseño y construcción de casas</h1>
+                <h1>Diseño y Construcción</h1>
                 <figure>
                     <img src={houseImage} alt="" />
                 </figure>
