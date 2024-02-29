@@ -19,11 +19,11 @@ function Header() {
     },
     {
       title: 'Blog',
-      path: '/#'  
+      path: '/dev'  
     },
     {
       title: 'Contacto',
-      path: '/#' 
+      path: '/dev' 
     },
 ]
 
