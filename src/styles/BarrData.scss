@@ -1,0 +1,51 @@
+.BarrData {
+    color: white;
+    height: 50vh;
+    // border: solid 1px blue;
+}
+.BarrData figure{
+    height: inherit;
+    width: 100vw;
+    position: absolute;
+}
+.BarrData figure img{
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+}
+.BarrData .Data {
+    height: 50vh;
+    width: 30vw;
+    // background-color: rgba(8, 0, 255, 0.302);
+    background-color: rgba(0, 0, 0, 0.509);
+    position: relative;
+    left: 10vw; // Esto te corre el bloque
+}
+.BarrData .Data .Data-texto{
+    padding: 6rem 4rem 4rem 4rem;
+}
+.BarrData .Data .Data-texto h2{
+    font-size: 3.6rem;
+}
+.BarrData .Data .Data-texto p{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+}
+.BarrData .Data .Data-button{
+    margin: 0 4rem;
+}
+.BarrData .Data .Data-button button{
+    height: 50px;
+    width: 100px;
+
+    background-color: grey;
+
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: bold;
+
+    filter: drop-shadow(0 0 8px black);
+}
