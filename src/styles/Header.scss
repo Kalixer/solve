@@ -10,6 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    z-index: 2;
 }
 .Header .logo {
     height: inherit;
@@ -39,4 +41,10 @@
     margin: 1rem;
     // border: solid 1px blue;
     font-weight: bold;
+}
+.Header li a {
+    color: white;
+}
+.Header li a:hover ul{
+    color: rgba(0, 0, 0, 0.500);
 }
