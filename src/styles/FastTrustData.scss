@@ -1,0 +1,43 @@
+.FastTrustData {
+    height: 50vh;
+    width: 100vw;
+    // background-color: #001122;
+    // background-color: #101720;
+    // background-color: #171717;
+    // background-color: #020D19;
+    // background-color: #0C0C0C;
+    // background-color: #0D1717;
+    background-color: #0B1215;
+
+    color: white;
+}
+.FastTrustData .fast-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+.FastTrustData .fast-container .fast-block {
+    height: 30vh;
+    width: 30vh;
+
+    // border: solid 1px purple;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.FastTrustData .fast-container .fast-block svg {
+    height: 25px;
+    width: 25px;
+}
+.FastTrustData .fast-container .fast-block h3 {
+    font-size: 2.6rem;
+    padding-top: 2rem;
+}
+.FastTrustData .fast-container .fast-block p {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
