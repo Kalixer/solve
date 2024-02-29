@@ -18,8 +18,9 @@
     width: 30vw;
 }
 .Header .logo img {
-    height: 100%;
+    height: 70%;
     padding-left: 4rem;
+    padding-top: 1rem;
 }
 // .Header .logo svg{
 //     height: 100%;
@@ -47,4 +48,5 @@
 }
 .Header li a:hover ul{
     color: rgba(0, 0, 0, 0.500);
+    filter: drop-shadow(0 0 4px white);
 }

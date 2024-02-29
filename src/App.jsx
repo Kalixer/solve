@@ -7,6 +7,7 @@ import { Home } from './Pages/HomePage';
 import { EngineeringPage } from './Pages/EngineeringPage';
 import { ConstructionPage } from './Pages/ConstructionPage';
 import { DevelopmentPage } from './Pages/DevelopmentPage';
+import { NotFound } from './Pages/NotFound';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
               <Route exact path='/engineering' element={<EngineeringPage/>}/>
               <Route exact path='/construction' element={<ConstructionPage/>}/>
               <Route exact path='/dev' element={<DevelopmentPage/>}/>
+              <Route exact path='/*' element={<NotFound/>}/>
             </Routes>
           </Layout>
         </BrowserRouter>

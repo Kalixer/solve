@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Footer.scss'
 import luthorLogo from '../assets/luthorLogo.png'
+import logoSolve from '../assets/logoSolve.png'
 import { SlSocialFacebook } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { SiWhatsapp } from "react-icons/si";
@@ -13,7 +14,7 @@ function Footer() {
       <section className='info'>
 
         <div className='infoBlock'>
-          <img src={luthorLogo} alt="" />
+          <img src={logoSolve} alt="" />
           <div className='socialMedia'>
             <SiWhatsapp/>
             <SlSocialFacebook/>
