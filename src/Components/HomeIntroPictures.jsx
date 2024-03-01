@@ -9,16 +9,16 @@ function HomeIntroPictures() {
     <>
         <div className='HomeIntroPictures'>
             <div className='pictureBox'>
-                <h1>Ingeniería y Cálculo</h1>
                 <figure>
                     <img src={calcImage} alt="" />
                 </figure>
+                <h1>Ingeniería y Cálculo</h1>
             </div>
             <div className='pictureBox'>
-                <h1>Diseño y Construcción</h1>
                 <figure>
                     <img src={houseImage} alt="" />
                 </figure>
+                <h1>Diseño y Construcción</h1>
             </div>
         </div>
     </>

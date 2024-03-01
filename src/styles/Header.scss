@@ -13,19 +13,15 @@
 
     z-index: 2;
 }
-.Header .logo {
-    height: inherit;
-    width: 30vw;
-}
-.Header .logo img {
-    height: 70%;
-    padding-left: 4rem;
-    padding-top: 1rem;
-}
-// .Header .logo svg{
-//     height: 100%;
-//     width: 100px;
+// .Header .logo {
+//     height: inherit;
+//     width: 30vw;
 // }
+.Header .logoSolve{
+    height: 60%;
+    width: 70px;
+    margin: 2rem;
+}
 .Header li {
     display: flex;
     flex-direction: row;
