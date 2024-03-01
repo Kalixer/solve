@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/CategoryBlocks.scss';
+import './CategoryBlocks.scss';
 
 const image1 = 'https://images.pexels.com/photos/1874636/pexels-photo-1874636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 const image2 = 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'

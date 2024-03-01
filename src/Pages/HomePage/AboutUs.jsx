@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/AboutUs.scss';
-import houseInteriorVertical from '../assets/houseInteriorVertical.jpg'
+import './AboutUs.scss';
+import houseInteriorVertical from '../../assets/houseInteriorVertical.jpg'
 function AboutUs() {
   return (
     <div className='AboutUs'>

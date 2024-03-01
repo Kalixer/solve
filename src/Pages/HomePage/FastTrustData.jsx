@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/FastTrustData.scss'
+import './FastTrustData.scss'
 
 import { TfiHeadphoneAlt } from "react-icons/tfi";
 

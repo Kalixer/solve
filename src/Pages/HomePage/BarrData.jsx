@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/BarrData.scss'
+import './BarrData.scss'
 
-import fieldHouse from '../assets/field_house.jpeg'
+import fieldHouse from '../../assets/field_house.jpeg'
 
 function BarrData() {
     const data = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolorem aperiam esse obcaecati eligendi nostrum quasi, corrupti accusamus enim illo atque in repellendus amet, tenetur ipsum itaque, reprehenderit corporis ipsa.`

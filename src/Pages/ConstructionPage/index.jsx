@@ -1,5 +1,5 @@
 import React from 'react'
-import { IntroPicture } from '../Components/IntroPicture'
+import { IntroPicture } from '../../Components/IntroPicture'
 
 function ConstructionPage() {
     const image = 'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'

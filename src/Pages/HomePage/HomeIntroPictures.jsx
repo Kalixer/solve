@@ -1,8 +1,8 @@
 import React from 'react'
-import calcImage from '../assets/calculus2Vertical.jpg'
-import houseImage from '../assets/houseImageVertical.jpg'
+import calcImage from '../../assets/calculus2Vertical.jpg'
+import houseImage from '../../assets/houseImageVertical.jpg'
 
-import '../styles/HomeIntroPictures.scss'
+import './HomeIntroPictures.scss'
 
 function HomeIntroPictures() {
     return (
