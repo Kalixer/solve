@@ -11,7 +11,7 @@
 .PresentationIng .imageContainer {
     width: 45vw;
     
-    border: solid 1px red;
+    // border: solid 1px red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
     position: absolute;
     height: 75vh;
     width: 30vw;
-    border: solid white 5px;
+    // border: solid white 5px;
     border-radius: 4px;
     filter: drop-shadow(0 0 8px rgb(82, 82, 82));
 }
@@ -67,6 +67,40 @@
 //     margin: 10px 0;
 // }
 .PresentationIng .constDescription {
-    border: solid 1px green;
+    // border: solid 1px blue;
     width: 55vw;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+}
+.PresentationIng .constDescription .texto {
+    margin-top: 4rem;
+    width: 50vw;
+    height: 60%;
+    // border: orange solid 1px;
+}
+.PresentationIng .constDescription .texto span{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.PresentationIng .constDescription .texto h1 {
+    font-size: 5rem;
+}
+.PresentationIng .constDescription .texto p{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+.PresentationIng .constDescription .hablemos {
+    height: 60px;
+    width: 150px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.PresentationIng .constDescription .hablemos:hover {
+    cursor: pointer;
+    background-color: white;
+    color: grey;
+    filter: drop-shadow(0 0 8px grey);
 }

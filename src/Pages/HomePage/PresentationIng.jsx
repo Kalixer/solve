@@ -2,8 +2,12 @@ import React from 'react'
 import './PresentationIng.scss'
 
 function PresentationIng() {
-  const desc = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Est molestias commodi veniam sed! Alias error placeat molestiae natus vitae hic dolor officia illo, quia esse quae temporibus facere laudantium iusto.`
+  const desc1 = `Con amplia experiencia en el ámbita de la ingeniería civil, ofrecemos servicios especializados en el desarrollo de proyectos de cálculo estructural, informes de daños estructurales e inspección técnica.`
+  const desc2 = `Con más de 15 años de experiencia brindamos asesoría para el cambio de materialidad a sistemas constructivos como Metalcon y Tubest, junto con la elaboración de detalladas memorias de cálculo. Confíe en nosotros para garantizar la seguridad y eficiencia en sus proyectos.`
+
   const image = 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+
+
   return (
     <div className='PresentationIng'>
 
@@ -20,10 +24,13 @@ function PresentationIng() {
     
       <section className='sectionContainer constDescription'>
         <div className='texto'>
-          <p>Engineering? We got it</p>
+          <span>¿Cálculos y estructuras? Nosotros nos encargamos</span>
           <h1>Solve Ingeniería</h1>
-          <p>{desc}</p>
+          <p>{desc1}</p>
+          <p>{desc2}</p>
         </div>
+        <button type='button' className='hablemos'>Hablemos</button>
+
       </section>
     
     </div>
