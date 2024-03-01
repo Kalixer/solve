@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/solve/static/css/main.ab4c2411.css",
-    "main.js": "/solve/static/js/main.df71836a.js",
+    "main.css": "/solve/static/css/main.afda6f64.css",
+    "main.js": "/solve/static/js/main.63f62c05.js",
     "static/js/845.e27f73c5.chunk.js": "/solve/static/js/845.e27f73c5.chunk.js",
     "static/media/houseImageVertical.jpg": "/solve/static/media/houseImageVertical.3a7b8086c4917901e49e.jpg",
     "static/media/calculus2Vertical.jpg": "/solve/static/media/calculus2Vertical.92efd5a0065fb8c4504c.jpg",
     "static/media/field_house.jpeg": "/solve/static/media/field_house.b4c567754001119ca80c.jpeg",
     "static/media/houseInteriorVertical.jpg": "/solve/static/media/houseInteriorVertical.3c2af4f8651b53065618.jpg",
-    "static/media/luthorLogo.png": "/solve/static/media/luthorLogo.794e873290f9cd645730.png",
     "index.html": "/solve/index.html",
-    "main.ab4c2411.css.map": "/solve/static/css/main.ab4c2411.css.map",
-    "main.df71836a.js.map": "/solve/static/js/main.df71836a.js.map",
+    "static/media/solveLogo-min.svg": "/solve/static/media/solveLogo-min.72ccd4d07d8f41dfb2e8a708c2ad149e.svg",
+    "main.afda6f64.css.map": "/solve/static/css/main.afda6f64.css.map",
+    "main.63f62c05.js.map": "/solve/static/js/main.63f62c05.js.map",
     "845.e27f73c5.chunk.js.map": "/solve/static/js/845.e27f73c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab4c2411.css",
-    "static/js/main.df71836a.js"
+    "static/css/main.afda6f64.css",
+    "static/js/main.63f62c05.js"
   ]
 }
