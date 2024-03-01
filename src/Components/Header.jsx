@@ -19,7 +19,7 @@ const sections = [
   },
   {
     title: 'Blog',
-    path: '/dev'  
+    path: '/blog'  
   },
   {
     title: 'Contacto',
