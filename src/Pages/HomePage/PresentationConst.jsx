@@ -1,8 +1,17 @@
 import React from 'react'
+import './PresentationConst.scss'
+
 
 function PresentationConst() {
   return (
-    <div className='PresentationConst'></div>
+    <div className='PresentationConst'>
+      <section className='constDescription'>
+
+      </section>
+      <section className='imageContainer'>
+
+      </section>
+    </div>
   )
 }
 

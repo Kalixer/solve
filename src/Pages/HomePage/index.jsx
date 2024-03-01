@@ -5,6 +5,8 @@ import { AboutUs } from './AboutUs';
 import { BarrData } from './BarrData';
 import { CategoryBlocks } from './CategoryBlocks';
 import { FastTrustData } from './FastTrustData';
+import { PresentationIng } from './PresentationIng';
+import { PresentationConst } from './PresentationConst';
 
 function Home() {
   return (
@@ -13,7 +15,9 @@ function Home() {
         <FastTrustData/>
         <AboutUs/>
         <BarrData/>
+        <PresentationIng/>
         <CategoryBlocks/>
+        <PresentationConst/>
     </div>
   )
 }
