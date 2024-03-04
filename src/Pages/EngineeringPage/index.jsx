@@ -19,8 +19,8 @@ function EngineeringPage() {
       <div className='EngineeringPage'>
         <Pros/>
         <About/>
-        <Services/>
         <OurClients/>
+        <Services/>
         <LetsConect/>
       </div>
     </>
