@@ -1,4 +1,52 @@
 .Services {
     height: 100vh;
-    border: solid 1px blue;
+    // border: solid 1px blue;
+
+    box-sizing: border-box;
+}
+.Services .servicesContainer {
+    margin: 4rem;
+    // border:  solid 1px red;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Services .servicesContainer .serviceBar{
+    // border: solid 1px greenyellow;
+    margin: 4rem 8rem;
+    width: 40vw;
+}
+.Services .servicesContainer .serviceBar h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    margin-left: 4rem;
+    width: 50%;
+}
+.Services .servicesContainer .serviceBar li {
+    list-style: none;
+    margin: 4rem 2rem;
+    display: flex;
+    align-items: center;
+
+    font-size: 1.8rem;
+}
+.Services .servicesContainer .serviceBar li svg {
+    height: 50px;
+    width: 50px;
+}
+.Services .servicesContainer .serviceBar li p{
+    padding: 0 2rem;
+}
+
+.Services .servicesContainer figure {
+    padding: 4rem 14rem 4rem 0;
+    height: 80vh;
+    // border: solid 1px aquamarine;
+}
+.Services .servicesContainer figure img{
+    height: 100%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 8px grey);
 }
