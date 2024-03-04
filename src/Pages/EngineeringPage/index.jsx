@@ -3,6 +3,7 @@ import './index.scss'
 import { IntroPicture } from '../../Components/IntroPicture'
 
 import { About } from './About'
+import { AboutMk2 } from './AboutMk2'
 import { Pros } from './Pros'
 import { Services } from './Services'
 import { OurClients } from './OurClients'
@@ -18,7 +19,8 @@ function EngineeringPage() {
       <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
       <div className='EngineeringPage'>
         <Pros/>
-        <About/>
+        {/* <About/> */}
+        <AboutMk2/>
         <OurClients/>
         <Services/>
         <LetsConect/>

@@ -1,0 +1,107 @@
+.About {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About .container {
+    height: 100vh;
+    width: 100vw;
+    // border: solid 1px red;
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+}
+
+.About .container .imagenCont {
+    height: 100vh;
+    width: 100vw;
+    // border: solid 1px blue;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.About .container .imagenCont img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    // filter: drop-shadow(0 0 8px grey);
+}
+.About .container .polygon {
+    height: 100vh;
+    width: 10vw;
+    clip-path: polygon(0% 0%,100% 100%,100% 0%);
+    padding-right: 10vw;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.About .container .relativeContainer {
+    left:20vw;
+    position: relative;
+    // background-color: rgba(0, 0, 0, 0.5);
+
+    height: 100vh;
+    width: 80vw;
+
+    display: flex;
+    // flex-direction: column;
+    justify-content: center;
+}
+.About .container .text {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    color: white;
+    height: 100vh;
+    width: 60vw;
+    padding-right: 10vw;
+    // border: solid 1px orangered;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.About .container .text .textContent {
+    margin-top: 2.6rem;
+}
+
+.About .container .text .textContent h3 {
+    font-size: 1.6rem;
+}
+.About .container .text .textContent h1 {
+    font-size: 4.4rem;
+    margin-bottom: 2rem;
+}
+.About .container .text .textContent p {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.About .container .text .infoBlocks {
+    // border: solid 1px blue;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+
+    height: 150px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.About .container .text .infoBlocks .block {
+    font-size: 2rem;
+}
+.About .container .text .infoBlocks .block h3 {
+    font-size: 3.2rem;
+}
+.About .container .text .infoBlocks .block p {
+    font-size: 2rem;
+}
