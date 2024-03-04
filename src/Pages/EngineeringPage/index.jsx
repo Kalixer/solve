@@ -2,6 +2,7 @@ import React from 'react'
 import './index.scss'
 import { IntroPicture } from '../../Components/IntroPicture'
 
+import { About } from './About'
 import { Pros } from './Pros'
 import { Services } from './Services'
 import { OurClients } from './OurClients'
@@ -17,6 +18,7 @@ function EngineeringPage() {
       <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
       <div className='EngineeringPage'>
         <Pros/>
+        <About/>
         <Services/>
         <OurClients/>
         <LetsConect/>
