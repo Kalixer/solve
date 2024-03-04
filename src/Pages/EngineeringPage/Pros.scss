@@ -1,4 +1,47 @@
 .Pros {
     height: 50vh;
-    border: solid 1px red;
+    // border: solid 1px red;
+    background-color: #0f0f0f;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Pros .title h1 {
+    font-size: 4rem;
+}
+
+.Pros .advantageBox {
+    // border: solid 1px white;
+    width: 90vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Pros .advantageBox .box {
+    height: 20vh;
+    width: 250px;
+    // border: solid 1px red;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+}
+
+.Pros .advantageBox .box svg {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1rem;
+}
+.Pros .advantageBox .box h3 {
+    font-size: 2.6rem;
+}
+.Pros .advantageBox .box p {
+    text-align: center;
+    font-size: 1.4rem;
 }
