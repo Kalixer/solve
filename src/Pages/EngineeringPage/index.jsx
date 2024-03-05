@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 import { IntroPicture } from '../../Components/IntroPicture'
 
-import { About } from './About'
+// import { About } from './About'
 import { AboutMk2 } from './AboutMk2'
 import { Pros } from './Pros'
 import { Services } from './Services'
