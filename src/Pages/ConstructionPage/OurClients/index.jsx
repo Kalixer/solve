@@ -7,6 +7,7 @@ function OurClients() {
     const comment2 = 'Ta buenarda la casa 👍🏻'
     const comment3 = 'La casa no se cayó cuando mi tío gordo se cayó 👍🏻'
     const comment4 = 'Caben mis 4 autos y 2 camionetas más mi helicóptero. Excelente servicio 👍🏻'
+    const cType = 'Casa tipo 1'
 
     return (
         <div className='OurClientsConstruction'>
@@ -21,10 +22,10 @@ function OurClients() {
             </div>
     
             <div className='cardContainer'>
-              <Card name='John Smith' comment={comment1} date='09/11/2000'/>
-              <Card name='Lucho Vásquez' comment={comment2} date='14/02/2017'/>
-              <Card name='Scarlet Johhansont' comment={comment3} date='35/24/2050'/>
-              <Card name='Johannes Muller' comment={comment4} date='76/83/-15476'/>
+              <Card name='John Smith' comment={comment1} date='09/11/2000' cType={cType}/>
+              {/* <Card name='Lucho Vásquez' comment={comment2} date='14/02/2017' cType={cType}/> */}
+              <Card name='Scarlet Johhansont' comment={comment3} date='35/24/2050' cType={cType}/>
+              <Card name='Johannes Muller' comment={comment4} date='76/83/-15476' cType={cType}/>
             </div>
     
           </section>
