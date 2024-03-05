@@ -27,7 +27,7 @@ function HomeIntroPictures() {
                     <img src={houseImage} alt="" />
                 </figure>
                 <div className='texto'>
-                    <h1>Solve: Diseño y Construcción</h1>
+                    <h1>Solve Construcción</h1>
                     <p>{constDesc}</p>
                     <button>Quiero saber más</button>
                 </div>
