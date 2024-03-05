@@ -4,6 +4,7 @@ import { Pros } from '../EngineeringPage/Pros'
 import { Services } from '../EngineeringPage/Services'
 import { OurClients } from '../EngineeringPage/OurClients'
 import { LetsConect } from '../EngineeringPage/LetsConect'
+import { About } from './About'
 
 function ConstructionPage() {
     const image = 'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
@@ -13,9 +14,10 @@ function ConstructionPage() {
     <>
         <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
         <div className='ConstructionPage'>
+        <About/>
         <Pros/>
-        <Services/>
         <OurClients/>
+        <Services/>
         <LetsConect/>
         </div>
     </>
