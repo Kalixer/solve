@@ -21,7 +21,7 @@ function HomeIntroPictures() {
                 <div className='texto'>
                     <h1>Solve: Ingeniería y Cálculo</h1>
                     <p>{ingDesc}</p>
-                    <Link to='/engineering' onClick={scrollToTop}>
+                    <Link className='b_link' to='/engineering' onClick={scrollToTop}>
                         <button>Quiero saber más</button>
                     </Link>
                 </div>
@@ -34,7 +34,7 @@ function HomeIntroPictures() {
                 <div className='texto'>
                     <h1>Solve Construcción</h1>
                     <p>{constDesc}</p>
-                    <Link to='/construction' onClick={scrollToTop}>
+                    <Link to='/construction' onClick={scrollToTop} className='b_link'>
                         <button>Quiero saber más</button>
                     </Link>
                 </div>
