@@ -4,11 +4,7 @@ import './index.scss'
 import { CardMk2 } from './CardMk2'
 
 function OurClients() {
-    const comment1 = 'La caseishon está en excelenteishon condiseishon'
-    const comment2 = 'Ta buenarda la casa 👍🏻'
-    const comment3 = 'La casa no se cayó cuando mi tío gordo se cayó 👍🏻'
-    const comment4 = 'Caben mis 4 autos y 2 camionetas más mi helicóptero. Excelente servicio 👍🏻'
-    const cType = 'Casa tipo 1'
+  
     const arrowR = '>'
     const arrowL = '<'
 
