@@ -1,4 +1,7 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+
+import { scrollToTop } from '../../utils/scrollToTop'
 import './PresentationConst.scss'
 
 
@@ -12,7 +15,9 @@ function PresentationConst() {
         <div className='textContainer'>
           <h1>Solve Construcción</h1>
           <p>{desc}</p>
-          <button type='button' className='hablemos'>Hablemos</button>
+          <Link to='/contact' onClick={scrollToTop}>
+            <button type='button' className='hablemos'>Hablemos</button>
+          </Link>
         </div>
       </section>
 

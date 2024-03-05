@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import calcImage from '../../assets/calculus2Vertical.jpg'
 import houseImage from '../../assets/houseImageVertical.jpg'
+
+import { scrollToTop } from '../../utils/scrollToTop';
 
 import './HomeIntroPictures.scss'
 
@@ -18,7 +21,9 @@ function HomeIntroPictures() {
                 <div className='texto'>
                     <h1>Solve: Ingeniería y Cálculo</h1>
                     <p>{ingDesc}</p>
-                    <button>Quiero saber más</button>
+                    <Link to='/engineering' onClick={scrollToTop}>
+                        <button>Quiero saber más</button>
+                    </Link>
                 </div>
             </div>
 
@@ -29,7 +34,9 @@ function HomeIntroPictures() {
                 <div className='texto'>
                     <h1>Solve Construcción</h1>
                     <p>{constDesc}</p>
-                    <button>Quiero saber más</button>
+                    <Link to='/construction' onClick={scrollToTop}>
+                        <button>Quiero saber más</button>
+                    </Link>
                 </div>
             </div>
             

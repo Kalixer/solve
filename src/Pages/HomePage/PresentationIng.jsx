@@ -1,5 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './PresentationIng.scss'
+import { scrollToTop } from '../../utils/scrollToTop'
 
 function PresentationIng() {
   const desc1 = `Con amplia experiencia en el ámbita de la ingeniería civil, ofrecemos servicios especializados en el desarrollo de proyectos de cálculo estructural, informes de daños estructurales e inspección técnica.`
@@ -29,7 +31,9 @@ function PresentationIng() {
           <p>{desc1}</p>
           <p>{desc2}</p>
         </div>
-        <button type='button' className='hablemos'>Hablemos</button>
+        <Link to='/contact' onClick={scrollToTop}>
+          <button type='button' className='hablemos'>Hablemos</button>
+        </Link>
 
       </section>
     
