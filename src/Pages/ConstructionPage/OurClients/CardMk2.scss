@@ -14,7 +14,7 @@
     object-fit: cover;
 }
 .CardMk2 .cardOpinion {
-    height: 150px;
+    min-height: 150px;
     width: 300px;
     background-color: white;
     position: relative;
@@ -23,8 +23,8 @@
     box-shadow: 0 0 8px grey;
 }
 .CardMk2 .cardOpinion .userOpinion {
-    height: 100px;
-    padding: 2rem 0 0 2rem;
+    min-height: 100px;
+    padding: 2rem 0 1rem 2rem;
 }
 .CardMk2 .cardOpinion .userOpinion :nth-child(1) {
     font-size: 1.2rem;
@@ -36,7 +36,7 @@
 }
 .CardMk2 .cardOpinion .userData {
     height: 30px;
-    padding: 0 2rem;
+    padding: 0 2rem 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;

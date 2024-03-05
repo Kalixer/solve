@@ -5,7 +5,7 @@ function CardMk2() {
     const image = 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 
     const name = 'Johannes Shmithsen'
-    const comment ='La casa está pulentísima'
+    const comment ='Realmente es un sueño cumplido, dentro del plazo y excelente la comunicación. Realmente una obra maestra'
     const date = '35/22/2075'
     const cType = 'Casa Tipo 1'
 
