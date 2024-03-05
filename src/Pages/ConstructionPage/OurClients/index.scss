@@ -3,52 +3,71 @@
     width: 100vw;
     // border: solid 1px greenyellow;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-}
-.OurClientsConstruction .titleClients {
-    width: 100vw;
-    margin: 4rem 0;
-
+    
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-    // border: solid 1px blue;
-}
-.OurClientsConstruction .titleClients h1 {
-    font-size: 2.6rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .OurClientsConstruction .clientContainer {
-    width: 100vw;
-    height: 45vh;
+    // font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #020D17;
+
+    width: 30vw;
+    height: 70vh;
     
     // border: solid 1px red;
 
     display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+
+    color: white;
+    // font-style: italic;
 }
 
 .OurClientsConstruction .clientContainer .userComment {
-    height: inherit;
+    padding-top: 15vh;
+    height: 30vh;
     width: 30vw;
 
     // border: solid 1px blue;
 
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
 }
 .OurClientsConstruction .clientContainer .userComment h1{
-    padding: 8rem 4rem;
-    font-size: 2.6rem;
-}
-.OurClientsConstruction .clientContainer .cardContainer {
-    display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+    padding-right: 2rem;
 
-    // border: solid 1px red;
-    width: 70vw;
+
+    font-family: 'Courier New', Courier, monospace;
+}
+.OurClientsConstruction .clientContainer .userComment h3 {
+    padding-right: 2rem;
+
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.OurClientsConstruction .clientContainer .navButton {
+    padding-top: 8rem;
+    padding-right: 8rem;
+    font-size: 4rem;
+    // border: solid 1px hotpink;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.OurClientsConstruction .clientContainer .navButton div{
+    margin: 0 1rem;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.OurClientsConstruction .clientContainer .navButton div:hover{
+    cursor: pointer;
+    color: white;
 }
