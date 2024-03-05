@@ -1,4 +1,4 @@
-.About {
+.AboutConstruction {
     height: 100vh;
     width: 100vw;
 
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.About .container {
+.AboutConstruction .container {
     height: 100vh;
     width: 100vw;
     // border: solid 1px red;
@@ -17,7 +17,7 @@
     // justify-content: space-between;
 }
 
-.About .container .imagenCont {
+.AboutConstruction .container .imagenCont {
     height: 100vh;
     width: 100vw;
     // border: solid 1px blue;
@@ -27,23 +27,24 @@
     justify-content: center;
     position: absolute;
 }
-.About .container .imagenCont img {
+.AboutConstruction .container .imagenCont img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 
     // filter: drop-shadow(0 0 8px grey);
 }
-.About .container .polygon {
+.AboutConstruction .container .relativeContainer .polygon {
     height: 100vh;
     width: 10vw;
-    clip-path: polygon(0% 0%,100% 100%,100% 0%);
+    clip-path: polygon(0% 0%,100% 0%,0% 100%);
+    // border: solid 1px white;
     padding-right: 10vw;
 
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.75);
 }
-.About .container .relativeContainer {
-    left:20vw;
+.AboutConstruction .container .relativeContainer {
+    // left:20vw;
     position: relative;
     // background-color: rgba(0, 0, 0, 0.5);
 
@@ -54,14 +55,14 @@
     // flex-direction: column;
     justify-content: center;
 }
-.About .container .text {
-    background-color: rgba(0, 0, 0, 0.5);
+.AboutConstruction .container .text {
+    background-color: rgba(0, 0, 0, 0.75);
 
     color: white;
     height: 100vh;
     width: 60vw;
-    padding-right: 10vw;
-    padding-left: 0.1rem;
+    // padding-right: 10vw;
+    padding-left: 10rem;
     // border: solid 1px orangered;
 
     display: flex;
@@ -69,23 +70,24 @@
     justify-content: space-around;
 }
 
-.About .container .text .textContent {
+.AboutConstruction .container .text .textContent {
     margin-top: 2.6rem;
+    filter: drop-shadow(0 0 8px black);
 }
 
-.About .container .text .textContent h3 {
+.AboutConstruction .container .text .textContent h3 {
     font-size: 1.6rem;
 }
-.About .container .text .textContent h1 {
+.AboutConstruction .container .text .textContent h1 {
     font-size: 4.4rem;
     margin-bottom: 2rem;
 }
-.About .container .text .textContent p {
+.AboutConstruction .container .text .textContent p {
     font-size: 1.6rem;
     margin-bottom: 1rem;
 }
 
-.About .container .text .infoBlocks {
+.AboutConstruction .container .text .infoBlocks {
     // border: solid 1px blue;
     margin-bottom: 2rem;
     margin-right: 2rem;
@@ -97,12 +99,12 @@
     align-items: center;
     justify-content: space-between;
 }
-.About .container .text .infoBlocks .block {
+.AboutConstruction .container .text .infoBlocks .block {
     font-size: 2rem;
 }
-.About .container .text .infoBlocks .block h3 {
+.AboutConstruction .container .text .infoBlocks .block h3 {
     font-size: 3.2rem;
 }
-.About .container .text .infoBlocks .block p {
+.AboutConstruction .container .text .infoBlocks .block p {
     font-size: 2rem;
 }
