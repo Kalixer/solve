@@ -1,0 +1,55 @@
+.CardContainer .CardContainer {
+    height: 275px;
+    width: 200px;
+
+    border: solid 1px grey;
+    border-radius: 8px;
+}
+.CardContainer figure {
+    border-radius: 8px;
+    position: absolute;
+    height: 275px;
+    width: 200px;
+}
+.CardContainer figure img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(33%);
+
+    border-radius: 4px;
+}
+.CardContainer .Card {
+    height: 235px;
+    margin: 2rem;
+    width: 160px;
+
+
+    // border: solid 1px white;
+
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    
+    color: white;
+}
+.CardContainer .Card p{
+    // padding: 2rem 0;
+    // padding-left: 2rem;
+    filter: drop-shadow(0 0 4px black);
+}
+.CardContainer .Card .name {
+    font-size: 1.2rem;
+}
+.CardContainer .Card .comment {
+    font-size: 1.6rem;
+    // padding-left: 2rem;
+
+    // text-align: center;
+}
+.CardContainer .Card .date {
+    padding: 0;
+}

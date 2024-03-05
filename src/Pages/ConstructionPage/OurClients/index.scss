@@ -1,0 +1,54 @@
+.OurClientsConstruction {
+    height: 70vh;
+    width: 100vw;
+    // border: solid 1px greenyellow;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.OurClientsConstruction .titleClients {
+    width: 100vw;
+    margin: 4rem 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    // border: solid 1px blue;
+}
+.OurClientsConstruction .titleClients h1 {
+    font-size: 2.6rem;
+}
+
+.OurClientsConstruction .clientContainer {
+    width: 100vw;
+    height: 45vh;
+    
+    // border: solid 1px red;
+
+    display: flex;
+}
+
+.OurClientsConstruction .clientContainer .userComment {
+    height: inherit;
+    width: 30vw;
+
+    // border: solid 1px blue;
+
+    display: flex;
+    justify-content: space-between;
+}
+.OurClientsConstruction .clientContainer .userComment h1{
+    padding: 8rem 4rem;
+    font-size: 2.6rem;
+}
+.OurClientsConstruction .clientContainer .cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+
+    // border: solid 1px red;
+    width: 70vw;
+}

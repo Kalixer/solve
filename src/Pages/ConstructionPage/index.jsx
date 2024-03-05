@@ -2,7 +2,7 @@ import React from 'react'
 import { IntroPicture } from '../../Components/IntroPicture'
 import { Pros } from '../EngineeringPage/Pros'
 import { Services } from '../EngineeringPage/Services'
-import { OurClients } from '../EngineeringPage/OurClients'
+import { OurClients } from './OurClients'
 import { LetsConect } from '../EngineeringPage/LetsConect'
 import { About } from './About'
 
@@ -16,8 +16,8 @@ function ConstructionPage() {
         <div className='ConstructionPage'>
         <About/>
         <Pros/>
-        <OurClients/>
         <Services/>
+        <OurClients/>
         <LetsConect/>
         </div>
     </>
