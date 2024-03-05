@@ -1,0 +1,45 @@
+.CardMk2 {
+    height: 70vh;
+    width: 60vw;
+    // border: solid 1px red;
+}
+.CardMk2 figure {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+}
+.CardMk2 figure img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+.CardMk2 .cardOpinion {
+    height: 150px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+    margin: 4rem;
+    border-radius: 2px;
+    box-shadow: 0 0 8px grey;
+}
+.CardMk2 .cardOpinion .userOpinion {
+    height: 100px;
+    padding: 2rem 0 0 2rem;
+}
+.CardMk2 .cardOpinion .userOpinion :nth-child(1) {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.CardMk2 .cardOpinion .userOpinion :nth-child(2){
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.CardMk2 .cardOpinion .userData {
+    height: 30px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: grey;
+    // background-color: rgb(222, 222, 222);
+}
