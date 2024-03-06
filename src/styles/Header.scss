@@ -13,11 +13,14 @@
 
     z-index: 2;
     margin: 0;
+    position: fixed;
+
+    transition-property: background-color;
+    transition-duration: .2s;
 }
-// .Header .logo {
-//     height: inherit;
-//     width: 30vw;
-// }
+.Header:hover {
+    background-color: rgba(11, 18, 21, 0.299);
+}
 .Header .logoSolve{
     height: 60%;
     width: 70px;
