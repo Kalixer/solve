@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.scss';
+import { scrollToTop } from '../utils/scrollToTop';
 
 import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
 
@@ -54,7 +55,7 @@ const [hover, setHover] = React.useState(false)
       </div>
       <li>
         {sections.map(item => (
-          <Link to={item.path} key={item.title}>
+          <Link to={item.path} key={item.title} onClick={scrollToTop}>
             <ul>{item.title}</ul>
           </Link>
         ))}
