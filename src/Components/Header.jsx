@@ -34,27 +34,27 @@ const sections = [
 function Header() {
 const [hover, setHover] = React.useState(false)
 
-  React.useEffect(() => {
-    if(hover) {
-      console.log('hover')
-    } else {
-      console.log('not hover')
-    }
-  })
+  // React.useEffect(() => {
+  //   if(hover) {
+  //     console.log('hover')
+  //   } else {
+  //     console.log('not hover')
+  //   }
+  // })
 
   return (
     <div className='Header'>
       <div className='logoContainer' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <Link to='/'>
           {(hover) 
-            ? <LogoSolve className='logoSolve' fill='grey'/>
-            : <LogoSolve className='logoSolve' fill='white'/> 
+            ? <LogoSolve key={'grey'} className='logoSolve' fill='grey'/>
+            : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
           }
         </Link>
       </div>
       <li>
         {sections.map(item => (
-          <Link to={item.path}>
+          <Link to={item.path} key={item.title}>
             <ul>{item.title}</ul>
           </Link>
         ))}

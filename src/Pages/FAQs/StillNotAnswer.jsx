@@ -16,12 +16,12 @@ function StillNotAnswer() {
     }
 
     const mensaje = (
-        <p>Para saber más, ponte en contacto con nosotros en  
-            <strong onClick={handleMail}> solve@solve.cl</strong> 
-        o llámanos al
-            <strong onClick={handleCall}> +569 7977 1139</strong>
-        </p>
-    )
+            <p>Para saber más, ponte en contacto con nosotros en  
+                <strong onClick={handleMail}> solve@solve.cl</strong> 
+            o llámanos al
+                <strong onClick={handleCall}> +569 7977 1139</strong>
+            </p>
+        )
 
   return (
     <section className='StillNotAnswer'>
@@ -34,7 +34,7 @@ function StillNotAnswer() {
             
             <div className='text'>
                 <h2>¿Tienes más preguntas?</h2>
-                <p>{mensaje}</p>
+                {mensaje}
             </div>
 
             <div className='rrss'>
