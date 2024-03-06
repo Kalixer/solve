@@ -11,7 +11,7 @@ import { LetsConect } from './LetsConect'
 
 
 function EngineeringPage() {
-  const image = 'https://images.pexels.com/photos/110469/pexels-photo-110469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+  const image = 'https://images.pexels.com/photos/110469/pexels-photo-110469.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
   const title = 'Solve Ingeniería y Cálculo'
   const titleDesc = 'Servicios de cálculo estructural e ingeniería civil'
   return (

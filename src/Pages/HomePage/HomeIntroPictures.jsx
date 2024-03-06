@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import calcImage from '../../assets/calculus2Vertical.jpg'
+// import calcImage from '../../assets/calculus2Vertical.jpg'
 import houseImage from '../../assets/houseImageVertical.jpg'
 
 import { scrollToTop } from '../../utils/scrollToTop';
@@ -8,6 +8,8 @@ import { scrollToTop } from '../../utils/scrollToTop';
 import './HomeIntroPictures.scss'
 
 function HomeIntroPictures() {
+    const calcSrc = 'https://images.pexels.com/photos/5584052/pexels-photo-5584052.jpeg?auto=compress&cs=tinysrgb&w=1920&h=2880&dpr=1' 
+
     const ingDesc = 'Nos especializamos en el cálculo estructural con años de experiencia'
     const constDesc = 'La construcción de casas está respaldada por la experiencia y asesoramiento de un ingeniero civil calculista'
     return (
@@ -16,7 +18,7 @@ function HomeIntroPictures() {
 
             <div className='pictureBox'>
                 <figure>
-                    <img src={calcImage} alt="" />
+                    <img src={calcSrc} alt="" />
                 </figure>
                 <div className='texto'>
                     <h1>Solve: Ingeniería y Cálculo</h1>

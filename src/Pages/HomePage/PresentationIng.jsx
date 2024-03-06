@@ -7,7 +7,7 @@ function PresentationIng() {
   const desc1 = `Con amplia experiencia en el ámbita de la ingeniería civil, ofrecemos servicios especializados en el desarrollo de proyectos de cálculo estructural, informes de daños estructurales e inspección técnica.`
   const desc2 = `Con más de 15 años de experiencia brindamos asesoría para el cambio de materialidad a sistemas constructivos como Metalcon y Tubest, junto con la elaboración de detalladas memorias de cálculo. Confíe en nosotros para garantizar la seguridad y eficiencia en sus proyectos.`
 
-  const image = 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+  const image = 'https://images.pexels.com/photos/5582599/pexels-photo-5582599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=0&dpr=1'
 
 
   return (

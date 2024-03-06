@@ -2,7 +2,7 @@ import React from 'react'
 import './index.scss'
 
 function ContactPage() {
-  const image = 'https://images.pexels.com/photos/388830/pexels-photo-388830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+  const image = 'https://images.pexels.com/photos/388830/pexels-photo-388830.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
   
   const placeholderMessage = 'Me gustaría saber más sobre...'
 

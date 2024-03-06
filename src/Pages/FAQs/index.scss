@@ -3,13 +3,39 @@
     width: 100vw;
     background-color: whitesmoke;
 }
-.FAQs .title {
-    // border: solid 1px goldenrod;
+.FAQs .title figure {
+    height: 50vh;
+    width: 100vw;
+
+    position: absolute;
+}
+.FAQs .title figure img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+
+    filter: brightness(30%);
+}
+
+
+.FAQs .title div{
+    height: 50vh;
+    position: relative;
     
     text-align: center;
-    padding-top: 15vh;
+    // padding-top: 15vh;
     margin-bottom: 4rem;
     font-size: 3.6rem;
+
+    color: white;
+
+    filter: drop-shadow(0 0 8px black);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .FAQs .questions {

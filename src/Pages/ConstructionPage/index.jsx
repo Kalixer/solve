@@ -7,7 +7,7 @@ import { LetsConect } from '../EngineeringPage/LetsConect'
 import { About } from './About'
 
 function ConstructionPage() {
-    const image = 'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    const image = 'https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
     const title = 'Solve Construcción'
     const titleDesc = 'Servicio de diseño y construcción de casas tipo'
   return (

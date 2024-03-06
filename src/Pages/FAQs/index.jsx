@@ -6,12 +6,18 @@ import { StillNotAnswer } from './StillNotAnswer'
 
 function FAQs() {
     const title = 'Preguntas frecuentes (FAQs)'
+    const image = 'https://images.pexels.com/photos/1038260/pexels-photo-1038260.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
   return (
     <div className='FAQs'>
         
         <section className='title'>
-            <h1>{title}</h1>
-            <p>Preguntame, preguntame</p>
+            <figure>
+                <img src={image} alt="" />
+            </figure>
+            <div>
+                <h1>{title}</h1>
+                <p>Preguntame, preguntame</p>
+            </div>
         </section>
 
         <section className='questions'>
