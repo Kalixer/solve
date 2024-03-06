@@ -22,6 +22,10 @@ const sections = [
     path: '/dev'  
   },
   {
+    title: 'FAQs',
+    path: '/faqs' 
+  },
+  {
     title: 'Contacto',
     path: '/contact' 
   },

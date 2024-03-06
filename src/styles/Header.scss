@@ -35,8 +35,8 @@
     padding: 0 2rem;
 }
 .Header li ul {
-    font-size: 2rem;
-    margin: 1rem;
+    font-size: 1.8rem;
+    margin: .6rem;
     // border: solid 1px blue;
     font-weight: bold;
 }
@@ -44,6 +44,13 @@
     color: white;
 }
 .Header li a:hover ul{
-    color: rgba(0, 0, 0, 0.500);
+    // color: rgba(0, 0, 0, 0.500);
     filter: drop-shadow(0 0 4px white);
+}
+.Header li a ul{
+    color: white;
+    font-weight: 400;
+
+    padding: 1rem;
+    border: solid 1px transparent;
 }
