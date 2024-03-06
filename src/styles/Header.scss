@@ -1,4 +1,7 @@
 .Header {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
     height: 10vh;
     width: 100vw;
     background-color: transparent;
@@ -21,10 +24,31 @@
 .Header:hover {
     background-color: rgba(11, 18, 21, 0.299);
 }
+
+.Header .logoContainer {
+    margin: 1rem;
+}
+.Header .logoContainer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Header .logoContainer a h1 {
+    color: white;
+    font-size: 5.6rem;
+    font-family: "Roboto Mono";
+    // font-family: monospace;
+    font-weight: 600;
+    // font-style: italic;
+    // padding-bottom: .6rem;
+}
+.Header .logoContainer a:hover h1 {
+    color: grey;
+}
 .Header .logoSolve{
-    height: 60%;
-    width: 70px;
-    margin: 2rem;
+    height: 90px;
+    width: 90px;
+    padding: 0 1rem 0 2rem;
 }
 .Header li {
     display: flex;

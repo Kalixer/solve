@@ -51,6 +51,7 @@ const [hover, setHover] = React.useState(false)
             ? <LogoSolve key={'grey'} className='logoSolve' fill='grey'/>
             : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
           }
+        <h1>Solve</h1>
         </Link>
       </div>
       <li>
