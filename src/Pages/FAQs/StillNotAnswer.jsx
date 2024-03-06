@@ -16,10 +16,10 @@ function StillNotAnswer() {
     }
 
     const mensaje = (
-            <p>Para saber más, ponte en contacto con nosotros en  
-                <strong onClick={handleMail}> solve@solve.cl</strong> 
-            o llámanos al
-                <strong onClick={handleCall}> +569 7977 1139</strong>
+            <p>Para saber más, ponte en contacto con nosotros <strike>en </strike> 
+                <strong onClick={handleMail}>solve@solve.cl</strong> 
+            <strike> o </strike> llámanos <strike>al </strike>
+                <strong onClick={handleCall}>+569 7977 1139</strong>
             </p>
         )
 
