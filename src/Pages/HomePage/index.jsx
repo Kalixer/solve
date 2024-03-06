@@ -7,6 +7,7 @@ import { CategoryBlocks } from './CategoryBlocks';
 import { FastTrustData } from './FastTrustData';
 import { PresentationIng } from './PresentationIng';
 import { PresentationConst } from './PresentationConst';
+import { LetsConect } from '../EngineeringPage/LetsConect'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <PresentationIng/>
         <CategoryBlocks/>
         <PresentationConst/>
+        <LetsConect/>
     </div>
   )
 }
