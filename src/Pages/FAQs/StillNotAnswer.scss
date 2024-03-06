@@ -1,0 +1,76 @@
+.StillNotAnswer {
+    height: 60vh;
+    width: 100vw;
+}
+
+.StillNotAnswer figure {
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+}
+.StillNotAnswer figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+
+.StillNotAnswer .contact {
+    position: relative;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    // border: solid 1px white;
+
+    height: 100%;
+}
+.StillNotAnswer .contact .text {
+    width: 42vw;
+    margin-top: 8rem;
+    // border: solid 1px white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.StillNotAnswer .contact .text h2{
+    font-size: 5rem;
+}
+.StillNotAnswer .contact .text p {
+    padding: 2rem 0;
+    font-size: 2.6rem;
+    width: 40vw;
+}
+.StillNotAnswer .contact .text p strong{
+    font-weight: 400;
+}
+.StillNotAnswer .contact .text p strong:hover{
+    cursor: pointer;
+    // font-weight: 700;
+    border-bottom: solid 1px white;
+}
+
+.StillNotAnswer .rrss {
+    height: 40px;
+    width: 40vw;
+    // border: solid 1px whitesmoke;
+
+    display: flex;
+    align-items: center;
+}
+.StillNotAnswer .rrss .cuadrado {
+    height: 30px;
+    width: 30px;
+    // border: solid 1px blue;
+
+    margin: 0 1rem;
+}
+.StillNotAnswer .rrss .cuadrado svg {
+    height: 100%;
+    width: 100%;
+}
+

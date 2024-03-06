@@ -1,0 +1,45 @@
+.QuestionBlock {
+    height: auto;
+    width: 55vw;
+
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    position: relative;
+
+    // border-bottom: solid 1px blue;
+    
+}
+.QuestionBlock .question {
+    padding: 1.6rem;
+    font-size: 2rem;
+    
+    // background-color: antiquewhite;
+    z-index: 1;
+    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px grey;
+}
+.QuestionBlock .question button {
+    border: none;
+    background-color: transparent;
+    font-size: 3rem;
+    margin-right: 2rem;
+}
+
+.QuestionBlock .question button:hover {
+    cursor: pointer;
+}
+.QuestionBlock .answer {
+    // height: 120px;
+    // background-color: rgb(240, 240, 240);
+    padding: 2rem 2rem 2rem 2rem;
+
+    border-radius: 16px;
+    // position: absolute;
+    // z-index: 1;
+}
+.QuestionBlock .answer p {
+    font-size: 1.6rem;
+}
