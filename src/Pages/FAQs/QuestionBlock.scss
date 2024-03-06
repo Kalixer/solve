@@ -26,10 +26,17 @@
     background-color: transparent;
     font-size: 3rem;
     margin-right: 2rem;
+
+    transform: rotate(0);
+    transition: .2s ease;
+}
+.QuestionBlock .question button:hover{
+    cursor: pointer;
 }
 
-.QuestionBlock .question button:hover {
+.QuestionBlock .question .rotate {
     cursor: pointer;
+    transform: rotate(90deg);
 }
 .QuestionBlock .answer {
     // height: 120px;
