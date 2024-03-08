@@ -1,7 +1,7 @@
 import React from 'react'
-import './OurClients.scss'
+import './OurClientsLogos.scss'
 
-function OurClients() {
+function OurClientsLogos() {
   const title = 'Empresas que han confiado en nosotros'
 
   const companies = [
@@ -69,4 +69,4 @@ function OurClients() {
   )
 }
 
-export { OurClients }
+export { OurClientsLogos }

@@ -6,14 +6,16 @@ import { IntroPicture } from '../../Components/IntroPicture'
 import { AboutMk2 } from './AboutMk2'
 import { Pros } from './Pros'
 import { Services } from './Services'
-import { OurClients } from './OurClients'
+import { OurClientsLogos } from './OurClientsLogos'
+import { OurClients } from '../ConstructionPage/OurClients'
 import { LetsConect } from './LetsConect'
 
 
 function EngineeringPage() {
   const image = 'https://images.pexels.com/photos/110469/pexels-photo-110469.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
-  const title = 'Solve Ingeniería y Cálculo'
+  const title = 'Solve Ingeniería: Cálculo estructural'
   const titleDesc = 'Servicios de cálculo estructural e ingeniería civil'
+
   return (
     <>
       <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
@@ -21,8 +23,9 @@ function EngineeringPage() {
         <Pros/>
         {/* <About/> */}
         <AboutMk2/>
-        <OurClients/>
+        <OurClientsLogos/>
         <Services/>
+        <OurClients name='name' logo='logo' date='date/date' review='review' pictures='pictures'/>
         <LetsConect/>
       </div>
     </>

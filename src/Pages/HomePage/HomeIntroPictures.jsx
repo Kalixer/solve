@@ -21,7 +21,7 @@ function HomeIntroPictures() {
                     <img src={calcSrc} alt="" />
                 </figure>
                 <div className='texto'>
-                    <h1>Solve: Ingeniería y Cálculo</h1>
+                    <h1>Solve Ingeniería: Cálculo estructural</h1>
                     <p>{ingDesc}</p>
                     <Link className='b_link' to='/engineering' onClick={scrollToTop}>
                         <button>Quiero saber más</button>
