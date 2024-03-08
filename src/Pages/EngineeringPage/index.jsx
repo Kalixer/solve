@@ -7,7 +7,7 @@ import { AboutMk2 } from './AboutMk2'
 import { Pros } from './Pros'
 import { Services } from './Services'
 import { OurClientsLogos } from './OurClientsLogos'
-import { OurClients } from '../ConstructionPage/OurClients'
+import { OurClients } from '../../Components/OurClients'
 import { LetsConect } from './LetsConect'
 
 

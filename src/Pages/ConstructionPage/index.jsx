@@ -2,7 +2,7 @@ import React from 'react'
 import { IntroPicture } from '../../Components/IntroPicture'
 import { Pros } from '../EngineeringPage/Pros'
 import { Services } from '../EngineeringPage/Services'
-import { OurClients } from './OurClients'
+import { OurClients } from '../../Components/OurClients'
 import { LetsConect } from '../EngineeringPage/LetsConect'
 import { About } from './About'
 
