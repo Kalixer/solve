@@ -14,8 +14,8 @@ function OurClients() {
           <section className='clientContainer'>
 
             <div className='userComment'>
-              <h1>La confianza en nosotros es recompensada</h1>
-              <h3>Comentarios de quienes han confiado su sueño en nuestras manos</h3>
+              <h1>Clientes que han confiado en nosotros</h1>
+              <h3>Nombre del cliente y/o logo, empresa caso ingeniería</h3>
             </div> 
 
             <div className='navButton'>  

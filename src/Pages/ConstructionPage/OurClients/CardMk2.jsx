@@ -10,6 +10,13 @@ function CardMk2() {
     const cType = 'Casa Tipo 1'
 
 
+    /* 
+    Sección Ingeniería
+    Añadir un título, características del proyecto
+
+    Poner que las imagenes del proyecto vayan cambiando solas
+    Que los botones solo cambien el proyecto
+    */
   return (
     <div className='CardMk2'>
         <figure>

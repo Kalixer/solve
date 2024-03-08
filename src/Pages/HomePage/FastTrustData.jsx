@@ -10,22 +10,22 @@ function FastTrustData() {
       <li className='fast-container'>
         <ul className='fast-block'>
           <TfiHeadphoneAlt/>
-          <h3>Title</h3>
+          <h3>Cálculo estructural</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
           <TfiHeadphoneAlt/>
-          <h3>Title</h3>
+          <h3>Arquitectura</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
           <TfiHeadphoneAlt/>
-          <h3>Title</h3>
+          <h3>Casas Tipo</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
           <TfiHeadphoneAlt/>
-          <h3>Title</h3>
+          <h3>Llave en mano</h3>
           <p>{texto}</p>
         </ul>
       </li>
