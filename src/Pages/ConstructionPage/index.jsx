@@ -4,6 +4,7 @@ import { Pros } from '../EngineeringPage/Pros'
 import { Services } from '../EngineeringPage/Services'
 import { OurClients } from '../../Components/OurClients'
 import { LetsConect } from '../EngineeringPage/LetsConect'
+import { CategoryBlocks } from './CategoryBlocks'
 import { About } from './About'
 
 function ConstructionPage() {
@@ -14,9 +15,10 @@ function ConstructionPage() {
     <>
         <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
         <div className='ConstructionPage'>
-        <About/>
         <Pros/>
+        <About/>
         <Services/>
+        <CategoryBlocks/>
         <OurClients/>
         <LetsConect/>
         </div>

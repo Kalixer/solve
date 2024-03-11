@@ -1,0 +1,29 @@
+.ProjectsPage {
+    width: 100vw;
+    height: 130vh;
+
+    border: solid 1px green;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagePage {
+    // margin-top: 6rem;
+    // margin-bottom: 6rem;
+    height: auto;
+    width: 100vw;
+    
+    // border-radius: 2rem;
+
+    position: relative;
+}
+.imagePage img{
+    width: 100%;
+    height: 98%;
+
+    object-fit: cover;
+
+    border-radius: inherit;
+}
+

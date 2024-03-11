@@ -11,6 +11,7 @@ import { NotFound } from './Pages/NotFound';
 import { BlogPage } from './Pages/BlogPage';
 import { ContactPage } from './Pages/ContactPage/index.jsx';
 import { FAQs } from './Pages/FAQs/index.jsx';
+import { ProjectsPage } from './Pages/ProjectsPage/index.jsx';
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
               <Route exact path='/blog' element={<BlogPage/>}/>
               <Route exact path='/faqs' element={<FAQs/>}/>
               <Route exact path='/contact' element={<ContactPage/>}/>
+              <Route exact path='/projects' element={<ProjectsPage/>}/>
 
               <Route exact path='/dev' element={<DevelopmentPage/>}/>
               <Route exact path='/*' element={<NotFound/>}/>
