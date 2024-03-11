@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.scss'
-// import { Card } from './Card'
+import { Link } from 'react-router-dom';
+import { scrollToTop } from '../../utils/scrollToTop'
 import { CardMk2 } from './CardMk2'
 
 import { LuChevronLeft } from "react-icons/lu";
@@ -18,9 +19,14 @@ function OurClients() {
               <h3>Nombre del cliente y/o logo, empresa caso ingeniería</h3>
             </div> 
 
-            <div className='navButton'>  
-              <div><LuChevronLeft /></div>
-              <div><LuChevronRight /></div>
+            <div className='proyectPanel'>
+              <Link to='/projects' onClick={scrollToTop}>
+                <button>Ver todos los proyectos</button>
+              </Link>
+              <div className='navButton'>  
+                <LuChevronLeft />
+                <LuChevronRight />
+              </div>
             </div>
     
           </section>

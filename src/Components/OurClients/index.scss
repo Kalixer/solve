@@ -52,22 +52,48 @@
     font-family: 'Courier New', Courier, monospace;
 
 }
-.OurClientsConstruction .clientContainer .navButton {
-    padding-top: 8rem;
-    padding-right: 8rem;
+
+.OurClientsConstruction .clientContainer .proyectPanel {
+    width: 400px;
+    // border: solid 1px white;
+
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.OurClientsConstruction .clientContainer .proyectPanel .navButton {
     font-size: 4rem;
     // border: solid 1px hotpink;
 
     display: flex;
     justify-content: flex-end;
 }
-.OurClientsConstruction .clientContainer .navButton div{
-    margin: 0 1rem;
-    color: grey;
+.OurClientsConstruction .clientContainer .proyectPanel button {
+    height: 40px;
+    width: 220px;
+    border: solid 1px white;
+    border-radius: 8px;
+
     font-family: 'Courier New', Courier, monospace;
 
+    color: white;
+    background-color: transparent;
 }
-.OurClientsConstruction .clientContainer .navButton div:hover{
+.OurClientsConstruction .clientContainer .proyectPanel button:hover {
+    cursor: pointer;
+    color: var(--khaki);
+    border-color: var(--khaki);
+}
+
+.OurClientsConstruction .clientContainer .proyectPanel .navButton svg {
+    height: 40px;
+    width: 40px;
+    // border: solid 1px white;
+    color: gray;
+    margin: 0 0.8rem;
+}
+.OurClientsConstruction .clientContainer .proyectPanel .navButton svg:hover{
     cursor: pointer;
     color: white;
 }
