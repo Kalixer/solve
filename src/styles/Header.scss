@@ -41,9 +41,13 @@
     font-weight: 600;
     // font-style: italic;
     // padding-bottom: .6rem;
+
+    transition: color 0.2s ease;
 }
 .Header .logoContainer a:hover h1 {
-    color: grey;
+    color: var(--penn-blue);
+
+    // filter: drop-shadow(0 0 8px white);
 }
 .Header .logoSolve{
     height: 70px;
@@ -80,4 +84,20 @@
 
     padding: 1rem;
     border: solid 1px transparent;
+}
+.Header li button {
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 8px;
+
+    height: 40px;
+    width: 40px;
+
+    font-size: 1.8rem;
+}
+.Header li button:hover {
+    cursor: pointer;
+    color: var(--khaki);
+    border-color: var(--khaki);
 }

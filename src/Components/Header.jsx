@@ -33,22 +33,24 @@ const sections = [
 ]
 
 function Header() {
-const [hover, setHover] = React.useState(false)
-
-  // React.useEffect(() => {
-  //   if(hover) {
-  //     console.log('hover')
-  //   } else {
-  //     console.log('not hover')
-  //   }
-  // })
+  const [hover, setHover] = React.useState(false)
+  const [lang, setLang] = React.useState('es')
+  
+  const toggleLang = () => {
+    if(lang === 'es') {
+      setLang('en')
+    }
+    if(lang === 'en') {
+      setLang('es')
+    }
+  }
 
   return (
     <div className='Header'>
       <div className='logoContainer' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <Link to='/'>
           {(hover) 
-            ? <LogoSolve key={'grey'} className='logoSolve' fill='grey'/>
+            ? <LogoSolve key={'grey'} className='logoSolve' fill='var(--penn-blue)'/>
             : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
           }
         <h1>Solve</h1>
@@ -60,6 +62,7 @@ const [hover, setHover] = React.useState(false)
             <ul>{item.title}</ul>
           </Link>
         ))}
+        <button className='languageToggle' onClick={toggleLang}>{lang}</button>
       </li>
     </div>
   )
