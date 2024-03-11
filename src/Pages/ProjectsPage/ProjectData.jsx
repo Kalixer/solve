@@ -12,7 +12,7 @@ function ProjectData() {
 
         <div className='infoBlock'>
             <h3>Cliente</h3>
-            <p>James Altozano</p>
+            <p>Juan Pérez</p>
         </div>
 
         <div className='infoBlock'>
@@ -21,7 +21,7 @@ function ProjectData() {
         </div>
 
         <div className='infoBlock'>
-            <h3>Inforamción</h3>
+            <h3>Información</h3>
             <p>Información</p>
         </div>
 
