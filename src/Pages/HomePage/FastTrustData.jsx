@@ -1,7 +1,6 @@
 import React from 'react'
 import './FastTrustData.scss'
 
-import { TfiHeadphoneAlt } from "react-icons/tfi";
 import { LuBuilding2 } from "react-icons/lu";
 import { LuPencilRuler } from "react-icons/lu";
 import { LuHome } from "react-icons/lu";
@@ -9,7 +8,7 @@ import { LuKeyRound } from "react-icons/lu";
 
 
 function FastTrustData() {
-  const texto = `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis cupiditate ad nesciunt `
+  
   const calcDesc = (<p>Desarrollo de proyectos de Cálculo Estructural. <br />
   Inspección técnica en obra: Para proyectos Metalcon y Tubest</p>)
   const archDesc = (<p>Desarrollo de proyecto de vivienda único y personalizado. Respaldado por un ingeniero calculista</p>)
