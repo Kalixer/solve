@@ -6,8 +6,14 @@ import { Description } from './Description'
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
 
+import { projects } from '../../database/projects';
+
 function ProjectsPage() {
-    const imagen = 'https://images.pexels.com/photos/2089698/pexels-photo-2089698.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
+    const project = projects[0]
+    const imagen = project.backgroundImg
+    
+    const review = project.reviewEs
+    
   return (
     <div className='ProjectsPage'>
         <figure className='imagePage'>
@@ -17,8 +23,17 @@ function ProjectsPage() {
         <button className='boton botonAnterior'><SlArrowLeft fill='white'/></button>
         <button className='boton botonSiguiente'><SlArrowRight fill='white' /></button>
 
-        <Description/>
-        <ProjectData/>
+        <Description 
+          areaSolve={project.areaSolve}
+          review={review}
+        />
+        <ProjectData
+          areaSolve={project.areaSolve}
+          client={project.client}
+          clientLogo={project.clientLogo}
+          houseType={project.houseType}
+          info={project.info}
+        />
     </div>
   )
 }
