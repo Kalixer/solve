@@ -19,9 +19,13 @@
     color: white;
 }
 .Description .categoryContainer .category-false{
-    color: var(--davys-gray);
-    // filter: drop-shadow(0 0 0 white);
-    filter: none;
+    color: rgb(176, 175, 175);
+    // filter: invert(2);
+    // filter: none;
+}
+.Description .categoryContainer .category-false:hover {
+    color: white;
+    cursor: pointer;
 }
 .Description h1 {
     font-size: 6rem;
