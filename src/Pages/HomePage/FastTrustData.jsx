@@ -12,7 +12,7 @@ function FastTrustData() {
   const texto = `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis cupiditate ad nesciunt `
   const calcDesc = (<p>Desarrollo de proyectos de Cálculo Estructural. <br />
   Inspección técnica en obra: Para proyectos Metalcon y Tubest</p>)
-  const archDesc = (<p>Desarrolo de proyecto de vivienda único y personalizado</p>)
+  const archDesc = (<p>Desarrollo de proyecto de vivienda único y personalizado. Respaldado por un ingeniero calculista</p>)
   const typeDesc = (<p>Ponemos a disposición modelos de casas de 1 y 2 pisos <br/> Elaboración de presupuesto para construcción inmediata</p>)
   const keyDesc = (<p>Modalidad de entrega construcción llave en mano<br/> Para una atención y seguimiento personalizado</p>)
 
