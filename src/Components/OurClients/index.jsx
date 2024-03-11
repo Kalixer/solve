@@ -3,10 +3,10 @@ import './index.scss'
 // import { Card } from './Card'
 import { CardMk2 } from './CardMk2'
 
+import { LuChevronLeft } from "react-icons/lu";
+import { LuChevronRight } from "react-icons/lu";
+
 function OurClients() {
-  
-    const arrowR = '>'
-    const arrowL = '<'
 
     return (
         <div className='OurClientsConstruction'>
@@ -19,8 +19,8 @@ function OurClients() {
             </div> 
 
             <div className='navButton'>  
-              <div>{arrowL}</div>
-              <div>{arrowR}</div>
+              <div><LuChevronLeft /></div>
+              <div><LuChevronRight /></div>
             </div>
     
           </section>
