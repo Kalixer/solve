@@ -15,6 +15,7 @@ function StillNotAnswer() {
         console.log('Call')
     }
 
+    // La razón por la que hay tantas etiquetas es para hacer espacios entre las palabras
     const mensaje = (
             <p>Para saber más, ponte en contacto con nosotros <strike>en </strike> 
                 <strong onClick={handleMail}>solve@solve.cl</strong> 

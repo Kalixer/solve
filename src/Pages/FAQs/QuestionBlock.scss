@@ -4,7 +4,6 @@
 
     display: flex;
     flex-direction: column;
-    // align-items: center;
     position: relative;
 
     // border-bottom: solid 1px blue;
@@ -22,13 +21,14 @@
     cursor: pointer;
 }
 .QuestionBlock .question {
-    padding: 1.6rem;
+    padding: 2rem 1.2rem;
     font-size: 2rem;
     
     // background-color: antiquewhite;
     z-index: 1;
     
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-bottom: solid 1px grey;
 }
@@ -56,5 +56,5 @@
     border-radius: 16px;
 }
 .QuestionBlock .answer p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
