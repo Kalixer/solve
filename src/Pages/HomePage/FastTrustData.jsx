@@ -2,6 +2,11 @@ import React from 'react'
 import './FastTrustData.scss'
 
 import { TfiHeadphoneAlt } from "react-icons/tfi";
+import { LuBuilding2 } from "react-icons/lu";
+import { LuPencilRuler } from "react-icons/lu";
+import { LuHome } from "react-icons/lu";
+import { LuKeyRound } from "react-icons/lu";
+
 
 function FastTrustData() {
   const texto = `Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis cupiditate ad nesciunt `
@@ -9,22 +14,22 @@ function FastTrustData() {
     <div className='FastTrustData'>
       <li className='fast-container'>
         <ul className='fast-block'>
-          <TfiHeadphoneAlt/>
+          <LuPencilRuler />
           <h3>Cálculo estructural</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
-          <TfiHeadphoneAlt/>
+          <LuBuilding2 />
           <h3>Arquitectura</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
-          <TfiHeadphoneAlt/>
+          <LuHome />
           <h3>Casas Tipo</h3>
           <p>{texto}</p>
         </ul>
         <ul className='fast-block'>
-          <TfiHeadphoneAlt/>
+          <LuKeyRound />
           <h3>Llave en mano</h3>
           <p>{texto}</p>
         </ul>

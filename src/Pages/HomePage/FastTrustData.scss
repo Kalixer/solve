@@ -1,5 +1,5 @@
 .FastTrustData {
-    height: 50vh;
+    height: 45vh;
     width: 100vw;
     // background-color: #001122;
     // background-color: #101720;
@@ -16,19 +16,20 @@
 .FastTrustData .fast-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     padding: 4rem;
 }
 .FastTrustData .fast-container .fast-block {
     height: 30vh;
-    width: 30vh;
+    width: 32vh;
 
     // border: solid 1px purple;
-    padding: 2rem;
+    padding: 2rem 4rem;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 .FastTrustData .fast-container .fast-block svg {
@@ -42,4 +43,5 @@
 .FastTrustData .fast-container .fast-block p {
     font-size: 1.6rem;
     padding-top: 1rem;
+    text-align: center;
 }
