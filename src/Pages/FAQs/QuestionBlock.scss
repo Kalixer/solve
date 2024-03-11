@@ -8,7 +8,18 @@
     position: relative;
 
     // border-bottom: solid 1px blue;
-    
+    // border: solid 1px green;
+}
+.QuestionBlock:hover {
+    cursor: pointer;
+}
+.QuestionBlock .question:hover{
+    color: grey;
+    cursor: pointer;
+}
+.QuestionBlock:hover .question button {
+    color: black;
+    cursor: pointer;
 }
 .QuestionBlock .question {
     padding: 1.6rem;
@@ -30,22 +41,19 @@
     transform: rotate(0);
     transition: .2s ease;
 }
-.QuestionBlock .question button:hover{
-    cursor: pointer;
-}
 
 .QuestionBlock .question .rotate {
     cursor: pointer;
     transform: rotate(90deg);
 }
+.QuestionBlock .none {
+    display: none;
+}
 .QuestionBlock .answer {
-    // height: 120px;
-    // background-color: rgb(240, 240, 240);
+    display: block;
     padding: 2rem 2rem 2rem 2rem;
 
     border-radius: 16px;
-    // position: absolute;
-    // z-index: 1;
 }
 .QuestionBlock .answer p {
     font-size: 1.6rem;

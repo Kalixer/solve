@@ -11,7 +11,6 @@ function QuestionBlock() {
     const toggleAns = () => {
         setAnswerDis(!answerDis)
         setRotate(!rotate)
-        // button.classList.toggle('rotate')
     }
 
     const question = 'Pregunta ejemplo para quien quiere preguntar una pregunta'
@@ -19,13 +18,17 @@ function QuestionBlock() {
 
 
   return (
-    <div className='QuestionBlock'>
+    <div className={`QuestionBlock`}
+            onClick={toggleAns}
+    >
+
         <div className='question'>
             <h3>{question}</h3>
 
             <button 
+
                 className={rotate ? 'rotate' : ''}
-                onClick={toggleAns}
+                // Esto de MouseOver es solo para que cambie el color
                 onMouseOver={() => setIsOver(true)}
                 onMouseLeave={() => setIsOver(false)}
             >
@@ -37,15 +40,11 @@ function QuestionBlock() {
             </button>
             
         </div>
-        
-        {answerDis 
-            ?        
-            <div className='answer'>
+            <div 
+                className={answerDis ? 'answer' : 'none'}
+            >
                 <p>{answer}</p>
             </div>
-            :
-            null
-        }
     </div>
   )
 }
