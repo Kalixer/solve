@@ -126,3 +126,59 @@
     font-style: italic;
     color: black;
 }
+
+
+@media (max-width: 500px) {
+    .HomeIntroPictures {
+        height: 240vh;
+        width: 100vw;
+    }
+    .HomeIntroPictures .pictureBox .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        width: 100vw;
+    }
+    .HomeIntroPictures .pictureBox .texto h1{
+        width: 99%;
+        font-size: 4.6rem;
+    }
+    .HomeIntroPictures .pictureBox .texto p{
+        width: 99%;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
+    }
+    .HomeIntroPictures .pictureBox:nth-child(1) .texto p{
+        text-align: center;
+    }
+
+
+    .HomeIntroPictures .pictureBox{
+        height: 120vh;
+    }
+    .HomeIntroPictures > div:nth-child(1) {
+        clip-path: polygon(0% 0%, 0 90%, 100% 80%, 100% 0);
+    }
+    .HomeIntroPictures > div:nth-child(2) {
+        clip-path: polygon(100% 100%, 100% 5%, 0% 15%, 0 100%);
+    }
+
+    .HomeIntroPictures .pictureBox:nth-child(2) .texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    .HomeIntroPictures .pictureBox:nth-child(2) .texto h1 {
+        text-align: center;
+    }
+    .HomeIntroPictures .pictureBox:nth-child(2) .texto p {
+        color: white;
+        text-align: center;
+        font-size: 2rem;
+        width: auto;
+        padding: 0 2rem;
+    }
+}
