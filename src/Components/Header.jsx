@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.scss';
 import { scrollToTop } from '../utils/scrollToTop';
+import { MyContext } from '../hooks/MyContext.js'
 
 import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
 
@@ -33,15 +34,16 @@ const sections = [
 ]
 
 function Header() {
+  const { language, setLanguage } = React.useContext(MyContext)
+
   const [hover, setHover] = React.useState(false)
-  const [lang, setLang] = React.useState('es')
   
   const toggleLang = () => {
-    if(lang === 'es') {
-      setLang('en')
+    if(language === 'es') {
+      setLanguage('en')
     }
-    if(lang === 'en') {
-      setLang('es')
+    if(language === 'en') {
+      setLanguage('es')
     }
   }
 
@@ -62,7 +64,7 @@ function Header() {
             <ul>{item.title}</ul>
           </Link>
         ))}
-        <button className='languageToggle' onClick={toggleLang}>{lang}</button>
+        <button className='languageToggle' onClick={toggleLang}>{language}</button>
       </li>
     </div>
   )

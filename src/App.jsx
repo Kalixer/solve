@@ -12,26 +12,28 @@ import { BlogPage } from './Pages/BlogPage';
 import { ContactPage } from './Pages/ContactPage/index.jsx';
 import { FAQs } from './Pages/FAQs/index.jsx';
 import { ProjectsPage } from './Pages/ProjectsPage/index.jsx';
+import { MyContextProvider } from './hooks/MyContext.js';
 
 function App() {
     return (
       <>
-        <BrowserRouter basename='/solve'>
-          <Layout>
-            <Routes>
-              <Route exact path='/' element={<Home/>}/>
-              <Route exact path='/engineering' element={<EngineeringPage/>}/>
-              <Route exact path='/construction' element={<ConstructionPage/>}/>
-              <Route exact path='/blog' element={<BlogPage/>}/>
-              <Route exact path='/faqs' element={<FAQs/>}/>
-              <Route exact path='/contact' element={<ContactPage/>}/>
-              <Route exact path='/projects' element={<ProjectsPage/>}/>
-
-              <Route exact path='/dev' element={<DevelopmentPage/>}/>
-              <Route exact path='/*' element={<NotFound/>}/>
-            </Routes>
-          </Layout>
-        </BrowserRouter>
+        <MyContextProvider>            
+          <BrowserRouter basename='/solve'>
+            <Layout>
+              <Routes>
+                <Route exact path='/' element={<Home/>}/>
+                <Route exact path='/engineering' element={<EngineeringPage/>}/>
+                <Route exact path='/construction' element={<ConstructionPage/>}/>
+                <Route exact path='/blog' element={<BlogPage/>}/>
+                <Route exact path='/faqs' element={<FAQs/>}/>
+                <Route exact path='/contact' element={<ContactPage/>}/>
+                <Route exact path='/projects' element={<ProjectsPage/>}/>
+                <Route exact path='/dev' element={<DevelopmentPage/>}/>
+                <Route exact path='/*' element={<NotFound/>}/>
+              </Routes>
+            </Layout>
+          </BrowserRouter>
+        </MyContextProvider>
       </>
     );
 }
