@@ -6,37 +6,40 @@ import { MyContext } from '../hooks/MyContext.js'
 
 import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
 
-const sections = [
-  {
-    title: 'Home',
-    path: '/'  
-  },
-  {
-    title: 'Ingeniería y Cálculo',
-    path: '/engineering'  
-  },
-  {
-    title: 'Construcción',
-    path: '/construction'  
-  },
-  {
-    title: 'Blog',
-    path: '/dev'  
-  },
-  {
-    title: 'FAQs',
-    path: '/faqs' 
-  },
-  {
-    title: 'Contacto',
-    path: '/contact' 
-  },
-]
 
 function Header() {
   const { language, setLanguage } = React.useContext(MyContext)
-
+  
   const [hover, setHover] = React.useState(false)
+
+
+
+  const sections = [
+    {
+      title: 'Home',
+      path: '/'  
+    },
+    {
+      title: 'Ingeniería',
+      path: '/engineering'  
+    },
+    {
+      title: 'Construcción',
+      path: '/construction'  
+    },
+    {
+      title: 'Blog',
+      path: '/dev'  
+    },
+    {
+      title: 'FAQs',
+      path: '/faqs' 
+    },
+    {
+      title: 'Contacto',
+      path: '/contact' 
+    },
+  ]
   
   const toggleLang = () => {
     if(language === 'es') {
