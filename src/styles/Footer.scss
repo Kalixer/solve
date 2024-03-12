@@ -99,3 +99,12 @@
 .Footer .copyright {
     margin-top: 1rem;
 }
+
+@media (max-width: 500px) {
+    .Footer {
+        height: 530px;
+    }
+    .Footer .info {
+        flex-direction: column;
+    }
+}
