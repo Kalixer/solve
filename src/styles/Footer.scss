@@ -24,6 +24,10 @@
     flex-direction: row;
     align-items: center;
 }
+.Footer .info .infoBlockContainer {
+    width: 66vw;
+    display: flex;
+}
 .Footer .info .infoBlock {
     height: 20vh;
     width: 30vw;
