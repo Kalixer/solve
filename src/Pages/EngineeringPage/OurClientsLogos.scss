@@ -56,3 +56,16 @@
     object-fit: cover;
 }
 
+@media (max-width: 500px) {
+    .OurClients {
+        height: 60vh;
+    }
+    .OurClients .clientContainer figure {
+        margin: 1rem 2rem;
+        height: 70px;
+        width: 70px;
+    }
+    .OurClients .clientContainer img {
+        height: 100%;
+    }
+}
