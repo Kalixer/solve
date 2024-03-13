@@ -33,3 +33,21 @@
 
     filter: drop-shadow(0 0 8px black);
 }
+
+@media (max-width: 500px) {
+    .CategoryBlocks {
+        flex-wrap: wrap;
+        height: 408vw;
+    }
+    .CategoryBlocks .category {
+        width: 98vw;
+        height: 100vw;
+        border-right: solid 4px black;
+        border-left: solid 4px black;
+        border-bottom: solid 8px black;
+    }
+    
+    .CategoryBlocks .category:nth-child(1) {
+        border-top: solid 8px black;
+    }
+}
