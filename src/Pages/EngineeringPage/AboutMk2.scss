@@ -106,3 +106,25 @@
 .About .container .text .infoBlocks .block p {
     font-size: 2rem;
 }
+
+@media (max-width: 500px) {
+    .About .container .polygon {
+        display: none;
+    }
+    .About .container .relativeContainer {
+        left: 0;
+        width: 100vw;
+    }
+    .About .container .text {
+        width: 100vw;
+        padding-left: 4rem;
+        justify-content: space-around;
+    }
+    // .About .container .text .textContent {
+    //     padding-left: 2rem;
+    // }
+    .About .container .text .infoBlocks {
+        width: 90vw;
+        margin: 0;
+    }
+}
