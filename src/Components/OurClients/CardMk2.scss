@@ -43,3 +43,14 @@
     color: grey;
     // background-color: rgb(222, 222, 222);
 }
+
+@media (max-width: 500px) {
+    .CardMk2 {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .CardMk2 .cardOpinion {
+        align-self: center;
+    }
+}

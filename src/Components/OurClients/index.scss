@@ -97,3 +97,29 @@
     cursor: pointer;
     color: white;
 }
+
+@media (max-width: 500px) {
+    .OurClientsConstruction {
+        height: 120vh;
+        flex-direction: column;
+    }
+    .OurClientsConstruction .clientContainer {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .OurClientsConstruction .clientContainer .userComment {
+        padding-top: 4rem;
+        width: 80vw;
+    }
+    .OurClientsConstruction .clientContainer .proyectPanel {
+        margin-top: 2rem;
+        justify-content: flex-start;
+    }
+    .OurClientsConstruction .clientContainer .proyectPanel .navButton {
+        margin-left: 2.8rem;
+    }
+    .OurClientsConstruction .clientContainer .proyectPanel .navButton svg {
+        margin: 0;
+    }
+}
