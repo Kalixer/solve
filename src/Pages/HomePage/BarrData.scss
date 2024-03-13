@@ -49,3 +49,14 @@
 
     filter: drop-shadow(0 0 8px black);
 }
+
+@media (max-width: 500px) {
+    .BarrData {
+        height: 70vh;
+    }
+    .BarrData .Data {
+        height: 70vh;
+        width: 100vw;
+        left: 0;
+    }
+}
