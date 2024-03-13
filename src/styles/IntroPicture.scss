@@ -32,3 +32,14 @@
     font-size: 2.6rem;
     margin-top: 2rem;
 }
+
+@media (max-width:500px) {
+    .IntroPicture .texto h1 {
+        font-size: 4.8rem;
+        text-align: center;
+    }
+    .IntroPicture .texto p {
+        font-size: 2rem;
+        text-align: center;
+    }
+}
