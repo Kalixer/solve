@@ -45,3 +45,17 @@
     padding-top: 1rem;
     text-align: center;
 }
+
+@media (max-width: 500px) {
+    .FastTrustData {
+        height: 132vh;
+    }
+    .FastTrustData .fast-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 0;
+    }
+    .FastTrustData .fast-container .fast-block{
+        padding: 0 4rem;
+    }
+}

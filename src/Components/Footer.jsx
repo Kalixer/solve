@@ -12,22 +12,26 @@ function Footer() {
 
       <section className='info'>
 
-        <div className='infoBlock'>
-          <img src={logoSolve} alt="" />
-          <div className='socialMedia'>
-            <SiWhatsapp/>
-            <SlSocialFacebook/>
-            <SlSocialLinkedin/>
+        <div className='infoBlockContainer'>
+          
+          <div className='infoBlock'>
+            <img src={logoSolve} alt="" />
+            <div className='socialMedia'>
+              <SiWhatsapp/>
+              <SlSocialFacebook/>
+              <SlSocialLinkedin/>
+            </div>
           </div>
-        </div>
 
-        <div className='infoBlock infoContact'>
-          <h3>Contact</h3>
-          <div className='info_P'>
-            <p>solve@solve.cl</p>
-            <p>#221b Baker Street, London</p>
-            <p>+569 7977 1139</p>
+          <div className='infoBlock infoContact'>
+            <h3>Contact</h3>
+            <div className='info_P'>
+              <p>solve@solve.cl</p>
+              <p>#221b Baker Street, London</p>
+              <p>+569 7977 1139</p>
+            </div>
           </div>
+
         </div>
 
         <form className='infoBlock infoInput'>

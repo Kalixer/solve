@@ -101,3 +101,12 @@
     color: var(--khaki);
     border-color: var(--khaki);
 }
+
+@media(max-width: 500px) {
+    .Header .logoContainer h1{
+        display: none;
+    }
+    .Header li {
+        display: none;
+    }
+}

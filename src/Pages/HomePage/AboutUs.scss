@@ -66,3 +66,30 @@
     height: 100%;
     object-fit: cover;
 }
+
+@media (max-width: 850px) {
+    .AboutUs {
+        height: 160vh;
+        flex-direction: column;
+    }
+    .AboutUs .contentDescript {
+        height: 70vh;
+        width: 100vw;
+    }
+    .AboutUs .contentDescript .text {
+        margin: 4rem 2.4rem;
+    }
+    .AboutUs .contentDescript .boton {
+        margin: 0 4rem;
+    }
+    .AboutUs .imagePresentation {
+        width: 100vw;
+        margin-top: 4rem;
+    }
+    .AboutUs .imagePresentation figure{
+        margin: 0;
+        margin-bottom: 4rem;
+        width: 90vw;
+    }
+
+}

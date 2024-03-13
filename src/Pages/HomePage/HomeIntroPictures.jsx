@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 // import calcImage from '../../assets/calculus2Vertical.jpg'
 import houseImage from '../../assets/houseImageVertical.jpg'
