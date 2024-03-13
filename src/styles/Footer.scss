@@ -102,9 +102,38 @@
 
 @media (max-width: 500px) {
     .Footer {
-        height: 530px;
+        height: 60vh;
     }
     .Footer .info {
+        height: 52vh;
+        width: 100vw;
         flex-direction: column;
+        align-items: center;
+    }
+
+    .Footer .info .infoBlockContainer {
+        height: 20vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        padding-top: 3.6rem;
+    }
+    .Footer .info .infoBlockContainer .infoBlock {
+        width: 45vw;
+        padding: 0;
+    }
+
+    .Footer .info .infoBlockContainer .infoBlock:nth-child(1) {
+        width: 36vw;
+        padding: 0;
+    }
+    .Footer .info .infoBlockContainer .infoBlock .socialMedia {
+        width: 32vw;
+    }
+    .Footer .info .infoInput{
+        width: 92vw;
     }
 }
