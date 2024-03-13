@@ -69,3 +69,23 @@
     width: 100%;
     object-fit: cover;
 }
+
+@media(max-width: 500px) {
+    .PresentationConst .constDescription {
+        width: 100vw;
+    }
+    .PresentationConst .constDescription .textContainer {
+        padding: 0 4rem;
+    }
+    .PresentationConst .constDescription .textContainer h1 {
+        margin: 0;
+    }
+    .PresentationConst .constDescription .textContainer p {
+        width: 85vw;
+    }
+
+
+    .PresentationConst .divider {
+        display: none;
+    }
+}
