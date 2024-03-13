@@ -11,7 +11,7 @@ function Header() {
   const { language, setLanguage } = React.useContext(MyContext)
   
   const [hover, setHover] = React.useState(false)
-
+  const [resMenu, setResMenu] = React.useState(false)
 
 
   const sections = [
@@ -41,6 +41,17 @@ function Header() {
     },
   ]
   
+  
+  // Esto es para que al hacer el click abra el menu responsive
+  const toggleMenu = () => { 
+    if(resMenu) {
+      setResMenu(!resMenu)
+    }
+    setResMenu(!resMenu)
+
+    scrollToTop()
+  }
+  
   const toggleLang = () => {
     if(language === 'es') {
       setLanguage('en')
@@ -49,6 +60,7 @@ function Header() {
       setLanguage('es')
     }
   }
+
 
   return (
     <div className='Header'>
@@ -61,9 +73,25 @@ function Header() {
         <h1>Solve</h1>
         </Link>
       </div>
-      <li>
+
+      <button 
+        className="menu-responsive" 
+        onClick={toggleMenu}
+        >
+          <div></div>
+          <div></div>
+          <div></div>
+      </button>
+      
+      
+      {/* 
+        Esta parte del resMenu y className es para reutilizar el componente 
+        y en función del estado mostrar unos estilos u otros
+      */}
+
+      <li className={`${!resMenu ? 'display-laptop' : 'display-responsive'} `}>
         {sections.map(item => (
-          <Link to={item.path} key={item.title} onClick={scrollToTop}>
+          <Link to={item.path} key={item.title} onClick={toggleMenu}>
             <ul>{item.title}</ul>
           </Link>
         ))}

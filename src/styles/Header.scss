@@ -43,6 +43,7 @@
     // padding-bottom: .6rem;
 
     transition: color 0.2s ease;
+    z-index: 2;
 }
 .Header .logoContainer a:hover h1 {
     color: var(--penn-blue);
@@ -53,8 +54,10 @@
     height: 70px;
     width: 70px;
     padding: 0 1rem 0 2rem;
+
+    z-index: 2;
 }
-.Header li {
+.Header .display-laptop {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,27 +68,27 @@
 
     padding: 0 2rem;
 }
-.Header li ul {
+.Header .display-laptop ul {
     font-size: 1.8rem;
     margin: .6rem;
     // border: solid 1px blue;
     font-weight: bold;
 }
-.Header li a {
+.Header .display-laptop a {
     color: white;
 }
-.Header li a:hover ul{
+.Header .display-laptop a:hover ul{
     // color: rgba(0, 0, 0, 0.500);
     filter: drop-shadow(0 0 4px white);
 }
-.Header li a ul{
+.Header .display-laptop a ul{
     color: white;
     font-weight: 400;
 
     padding: 1rem;
     border: solid 1px transparent;
 }
-.Header li button {
+.Header .display-laptop button {
     background-color: transparent;
     color: white;
     border: solid 1px white;
@@ -96,17 +99,103 @@
 
     font-size: 1.8rem;
 }
-.Header li button:hover {
+.Header .display-laptop button:hover {
     cursor: pointer;
     color: var(--khaki);
     border-color: var(--khaki);
 }
 
 @media(max-width: 500px) {
-    .Header .logoContainer h1{
+    .Header .display-laptop {
         display: none;
     }
-    .Header li {
-        display: none;
+
+    // Diseño de los palitos
+    .Header .menu-responsive{
+        margin-right: 16px;
+        display: flex;
+        flex-direction: column;
+        width: 3rem;
+        height: 3rem;
+        border: 0;
+        background: transparent;
+        gap: .65rem;
+        z-index: 5;
+    }
+    .Header .menu-responsive:hover {
+        cursor: pointer;
+    }
+    .Header .menu-responsive > div {
+        background: white;
+        height: 2px;
+        width: 100%;
+        border-radius: 5px;
+        transition: all .5s;
+        transform-origin: left;
+    }
+    .Header .menu-responsive:hover div {
+        background: var(--khaki);
+    }
+    .Header .menu-responsive:hover div:first-child {
+        transform: rotate(35deg);
+    }
+    .Header .menu-responsive:hover div:nth-child(2) {
+        opacity: 0
+    }
+    .Header .menu-responsive:hover div:last-child {
+        transform: rotate(-35deg);
+    }
+    // hasta aquí la animación de los palitos
+
+
+    .Header .display-responsive {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        top: 0;
+
+        width: 100vw;
+        position: absolute;
+
+        padding-top: 100px;
+
+        background-color: rgba(11, 18, 21, 0.799);
+
+    }
+    .Header .display-responsive a {
+        width: 90vw;
+        color: white;
+        text-align: center;
+        font-size: 2.8rem;
+        
+        margin: 2rem;
+
+        transition: color 0.2s ease;
+    }
+    .Header .display-responsive a:hover{
+        color: var(--khaki);
+    }
+    .Header .display-responsive button {
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+        border-radius: 8px;
+    
+        height: 40px;
+        width: 40px;
+    
+        font-size: 1.8rem;
+
+        margin-top: 1.6rem;
+
+        transition: color 0.2s ease;
+        transition: border-color 0.2s ease;
+    }
+    .Header .display-responsive button:hover {
+        cursor: pointer;
+        color: var(--khaki);
+        border-color: var(--khaki);
     }
 }
