@@ -46,3 +46,13 @@
     text-align: center;
     font-size: 1.4rem;
 }
+
+@media (max-width: 500px) {
+    .Pros {
+        height: 100vh;
+    }
+    .Pros .advantageBox {
+        flex-direction: column;
+        height: 80vh;
+    }
+}
