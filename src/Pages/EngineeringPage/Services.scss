@@ -53,6 +53,9 @@
 }
 
 @media (max-width:500px) {
+    .Services {
+        height: 152vh;
+    }
     .Services .servicesContainer {
         flex-direction: column;
     }
@@ -62,6 +65,9 @@
     }
     .Services .servicesContainer .serviceBar h2 {
         width: 70vw;
+        margin: 0;
+        margin-bottom: 4rem;
+        text-align: center;
     }
     .Services .servicesContainer .serviceBar li {
         margin: 2.8rem 0;
