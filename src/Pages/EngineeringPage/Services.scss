@@ -51,3 +51,28 @@
     object-fit: cover;
     filter: drop-shadow(0 0 8px grey);
 }
+
+@media (max-width:500px) {
+    .Services .servicesContainer {
+        flex-direction: column;
+    }
+    .Services .servicesContainer .serviceBar {
+        margin: 0;
+        width: 85vw;
+    }
+    .Services .servicesContainer .serviceBar h2 {
+        width: 70vw;
+    }
+    .Services .servicesContainer .serviceBar li {
+        margin: 2.8rem 0;
+    }
+
+    .Services .servicesContainer figure {
+        width: 80vw;
+        padding: 4rem 0;
+    }
+    .Services .servicesContainer figure img {
+        width: 100%;
+        height: 90%;
+    }
+}
