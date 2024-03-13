@@ -104,3 +104,34 @@
     color: grey;
     filter: drop-shadow(0 0 8px grey);
 }
+
+@media (max-width:500px) {
+    .PresentationIng {
+        flex-direction: column-reverse;
+        height: 180vh;
+    }
+    .PresentationIng .constDescription {
+        width: 80vw;
+    }
+    .PresentationIng .constDescription .texto {
+        width: 100%;
+        height: 85%;
+    }
+    .PresentationIng .imageContainer {
+        width: 90vw;
+    }
+    .PresentationIng .imageContainer figure img {
+        width: 90%;
+        object-fit: cover;
+    }
+    .PresentationIng .imageContainer .boxBack {
+        top: 35rem;
+    }
+    .PresentationIng .imageContainer .boxBack {
+        width: 90%;
+        height: 300px;
+    }
+    .PresentationIng .imageContainer .boxFront {
+        width: 40vw;
+    }
+}
