@@ -105,11 +105,11 @@
         height: 90vh;
     }
     .LetsConect .container .text{
-        width: 66vw;
+        width: 80vw;
         margin: 0;
     }
     .LetsConect .container .form{
-        width: 66vw;
+        width: 80vw;
         margin: 0;
         
         display: flex;
@@ -124,6 +124,9 @@
         align-items: center;
     }
     .LetsConect .container .form form input {
-        width: 50vw;
+        width: 70vw;
+    }
+    .LetsConect .container .text p {
+        font-size: 1.8rem;
     }
 }
