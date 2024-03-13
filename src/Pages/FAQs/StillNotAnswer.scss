@@ -73,3 +73,17 @@
     width: 100%;
 }
 
+@media (max-width: 500px) {
+    .StillNotAnswer .contact .text {
+        width: 80vw;
+    }
+    .StillNotAnswer .contact .text h2 {
+        font-size: 4rem;
+    }
+    .StillNotAnswer .contact .text p {
+        width: 80vw;
+    }
+    .StillNotAnswer .rrss {
+        width: 80vw;
+    }
+}
