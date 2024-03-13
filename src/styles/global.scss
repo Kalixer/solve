@@ -60,3 +60,9 @@ html {
     $gradient-radial: radial-gradient(#001a56ff, #635d5cff, #ceb992ff, #0a3200ff, #eeeeeeff);
 
 }
+
+@media(max-width: 500px) {
+    #root {
+        overflow-x: hidden;
+    }
+}
