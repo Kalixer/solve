@@ -13,6 +13,7 @@ import { ContactPage } from './Pages/ContactPage/index.jsx';
 import { FAQs } from './Pages/FAQs/index.jsx';
 import { ProjectsPage } from './Pages/ProjectsPage/index.jsx';
 import { MyContextProvider } from './hooks/MyContext.js';
+import { ArchitecturePage } from './Pages/ArchitecturePage/index.jsx';
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Route exact path='/' element={<Home/>}/>
                 <Route exact path='/engineering' element={<EngineeringPage/>}/>
                 <Route exact path='/construction' element={<ConstructionPage/>}/>
+                <Route exact path='/architecture' element={<ArchitecturePage/>}/>
                 <Route exact path='/blog' element={<BlogPage/>}/>
                 <Route exact path='/faqs' element={<FAQs/>}/>
                 <Route exact path='/contact' element={<ContactPage/>}/>

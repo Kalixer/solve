@@ -28,6 +28,10 @@ function Header() {
       path: '/construction'  
     },
     {
+      title: 'Architecture',
+      path: '/architecture'  
+    },
+    {
       title: 'Blog',
       path: '/dev'  
     },
