@@ -1,6 +1,8 @@
 import React from 'react'
 import './MockUp.scss'
 
+import { RxDividerHorizontal } from "react-icons/rx";
+
 const imageCont = 
     (
         <section className='image'>
@@ -10,17 +12,21 @@ const imageCont =
         </section>
     )
 
+const lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum doloribus ratione, eveniet impedit eaque vitae quos, eum nulla libero quaerat necessitatibus, ut quisquam pariatur minima illo qui vel voluptatum.`
 const descriptionCont = 
     (
           <section className='description'>
 
             <div className='descContainer'>
-              <h2>Title Description</h2>
-              <p>Description</p>
+                <h3><RxDividerHorizontal/>Introducción</h3>
+                <h1>Title Description</h1>
+                <p>{lorem}</p>
+                <p>{lorem}</p>
+                <p>{lorem}</p>
             </div>
 
-            <div>
-              <p>More data</p>
+            <div className='more-data'>
+                <p>More data</p>
             </div>
 
           </section>
