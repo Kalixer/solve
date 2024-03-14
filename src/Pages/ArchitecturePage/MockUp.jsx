@@ -3,48 +3,59 @@ import './MockUp.scss'
 
 import { RxDividerHorizontal } from "react-icons/rx";
 
-const imageCont = 
-    (
-        <section className='image'>
-          <figure>
-            <img src='https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1b' alt="" />
-          </figure>
-        </section>
-    )
 
 const lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum doloribus ratione, eveniet impedit eaque vitae quos, eum nulla libero quaerat necessitatibus, ut quisquam pariatur minima illo qui vel voluptatum.`
-const descriptionCont = 
-    (
-          <section className='description'>
+
+
+function MockUpDef({image, introduction, title, text, moreData}) {
+  return (
+    <>
+        <section className='image'>
+          <figure>
+            <img src={image} alt="" />
+          </figure>
+        </section>
+
+
+        <section className='description'>
 
             <div className='descContainer'>
-                <h3><RxDividerHorizontal/>Introducción</h3>
-                <h1>Title Description</h1>
-                <p>{lorem}</p>
-                <p>{lorem}</p>
-                <p>{lorem}</p>
+                <h3><RxDividerHorizontal/>{introduction}</h3>
+                <h1>{title}</h1>
+                {text}
             </div>
 
             <div className='more-data'>
-                <p>More data</p>
+                <p>{moreData}</p>
             </div>
 
           </section>
-    )
-
-function MockUpDef() {
-  return (
-    <>
-        {imageCont}
-        {descriptionCont}
     </>
   )
 }
-function MockUpReverse() {
+function MockUpReverse({image, introduction, title, text, moreData}) {
   return (
     <>
-        {descriptionCont}
-        {imageCont}
+        <section className='description'>
+
+            <div className='descContainer'>
+                <h3><RxDividerHorizontal/>{introduction}</h3>
+                <h1>{title}</h1>
+                {text}
+            </div>
+
+            <div className='more-data'>
+                <p>{moreData}</p>
+            </div>
+
+          </section>
+        
+        
+        <section className='image'>
+          <figure>
+            <img src={image} alt="" />
+          </figure>
+        </section>
     </>
   )
 }

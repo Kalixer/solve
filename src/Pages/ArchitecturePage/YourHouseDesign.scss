@@ -1,9 +1,10 @@
 .YourHouseDesign {
     height: 100vh;
     width: 100vw;
-    border: solid 1px black;
+    // border: solid 1px black;
+    background-color: var(--antiflash-white);
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
