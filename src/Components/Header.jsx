@@ -43,12 +43,11 @@ function Header() {
   
   
   // Esto es para que al hacer el click abra el menu responsive
-  const toggleMenu = () => { 
-    if(resMenu) {
-      setResMenu(!resMenu)
-    }
+  const toggleResponsive = () => {
     setResMenu(!resMenu)
-
+  }
+  
+  const toggleMenu = () => {
     scrollToTop()
   }
   
@@ -76,7 +75,7 @@ function Header() {
 
       <button 
         className="menu-responsive" 
-        onClick={toggleMenu}
+        onClick={toggleResponsive}
         >
           <div></div>
           <div></div>
