@@ -72,3 +72,12 @@
     cursor: pointer;
     color: var(--davys-gray)
 }
+
+@media (max-width: 500px) {
+    .InfoIntro .masterContainer {
+        justify-content: center;
+    }
+    .InfoIntro .masterContainer .boxSection {
+        display: none;
+    }
+}

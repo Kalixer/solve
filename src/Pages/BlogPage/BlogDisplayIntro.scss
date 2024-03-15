@@ -77,3 +77,35 @@
 
     color: var(--davys-gray);
 }
+
+@media (max-width:500px) {
+    .BlogDisplayIntro .masterContainer {
+        flex-direction: column;
+    }
+    .BlogDisplayIntro .image {
+        padding: 0;
+        position: absolute;
+        height: 50vh;
+        width: 85vw;
+        filter: brightness(40%);
+    }
+    .BlogDisplayIntro .info {
+        width: 85vw;
+        z-index: 2;
+    }
+    .BlogDisplayIntro .info .texto {
+        width: 75vw;
+        padding: 2rem;
+    }
+    .BlogDisplayIntro .info .texto h2 {
+        color: var(--antiflash-white);
+        font-size: 3.2rem;
+    }
+    .BlogDisplayIntro .info .texto h3 {
+        color: var(--antiflash-white);
+        font-size: 1.6rem;
+    }
+    .BlogDisplayIntro .info p {
+        display: none;
+    }
+}
