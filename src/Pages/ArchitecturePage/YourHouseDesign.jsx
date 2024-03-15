@@ -21,7 +21,7 @@ function YourHouseDesign() {
   )
   const moreData = (
     <>
-      <p> <FaTools /> Elaboracion de presupiesto para construcción inmediata </p>
+      <p> <FaTools /> Personalización y practicidad garantizada </p>
       <p> <FaHelmetSafety /> Supervisión de obras por Ingeniero Civil </p>
       <p> <FaKey /> Modalidad de construcción llave en mano </p>
     </>

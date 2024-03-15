@@ -17,7 +17,6 @@ function HouseType() {
       <p> De esta forma no tendrás que hacer la planeación y el diseño que tan complicado puede ser </p>
       <p> Desarrollo de proyectos de construcción en el área habitacional en nuestras especialidades </p>
       <p> Confía en nosotros y en nuestros exitosos diseños </p>
-      <p> Confía en nosotros y en nuestros exitosos diseños </p>
     </>
   )
   const moreData = (
