@@ -52,6 +52,7 @@ function Header() {
   }
   
   const toggleMenu = () => {
+    setResMenu(!resMenu)
     scrollToTop()
   }
   
