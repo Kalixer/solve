@@ -1,0 +1,111 @@
+.BlogDisplayIntro {
+    height: 60vh;
+    width: 100%;
+    // border: solid 1px purple;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogDisplayIntro .masterContainer {
+    // margin-top: 4rem;
+    padding: 2rem 0;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: grey 2px solid;
+}
+
+.BlogDisplayIntro .image {
+    height: 90%;
+    width: 38vw;
+    // border: solid 1px blue;
+}
+.BlogDisplayIntro .image figure {
+    height: 100%;
+    width: inherit;
+}
+.BlogDisplayIntro .image figure:hover {
+    cursor: pointer;
+}
+.BlogDisplayIntro .image figure img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+
+    border-radius: 0px;
+}
+
+.BlogDisplayIntro .info {
+    height: 50vh;
+    width: 45vw;
+
+    // border: solid 1px red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BlogDisplayIntro .info .texto{
+    width: 45vw;
+
+    margin: 2rem 0;
+    padding-left: 2rem;
+}
+.BlogDisplayIntro .info .texto h2{
+    font-size: 4rem;
+}
+.BlogDisplayIntro .info .texto h2:hover {
+    cursor: pointer;
+}
+.BlogDisplayIntro .info .texto h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+
+    color: var(--davys-gray);
+    margin: 2rem 0;
+}
+.BlogDisplayIntro .info p{
+    margin: 4rem 0;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    border-top: solid 1px var(--davys-gray);
+
+    color: var(--davys-gray);
+}
+
+@media (max-width:500px) {
+    .BlogDisplayIntro .masterContainer {
+        flex-direction: column;
+    }
+    .BlogDisplayIntro .image {
+        padding: 0;
+        position: absolute;
+        height: 50vh;
+        width: 85vw;
+        filter: brightness(40%);
+    }
+    .BlogDisplayIntro .info {
+        width: 85vw;
+        z-index: 2;
+    }
+    .BlogDisplayIntro .info .texto {
+        width: 75vw;
+        padding: 2rem;
+    }
+    .BlogDisplayIntro .info .texto h2 {
+        color: var(--antiflash-white);
+        font-size: 3.2rem;
+    }
+    .BlogDisplayIntro .info .texto h3 {
+        color: var(--antiflash-white);
+        font-size: 1.6rem;
+    }
+    .BlogDisplayIntro .info p {
+        display: none;
+    }
+}

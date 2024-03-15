@@ -33,7 +33,7 @@ function Header() {
     },
     {
       title: 'Blog',
-      path: '/dev'  
+      path: '/blog'  
     },
     {
       title: 'FAQs',
