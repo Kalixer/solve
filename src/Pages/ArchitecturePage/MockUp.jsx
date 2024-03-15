@@ -4,9 +4,6 @@ import './MockUp.scss'
 import { RxDividerHorizontal } from "react-icons/rx";
 
 
-const lorem = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum doloribus ratione, eveniet impedit eaque vitae quos, eum nulla libero quaerat necessitatibus, ut quisquam pariatur minima illo qui vel voluptatum.`
-
-
 function MockUpDef({image, introduction, title, text, moreData}) {
   return (
     <>
