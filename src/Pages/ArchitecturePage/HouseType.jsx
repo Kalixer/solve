@@ -3,7 +3,7 @@ import { MockUpDef } from './MockUp'
 import './HouseType.scss'
 
 function HouseType() {
-  const image = 'https://images.pexels.com/photos/256150/pexels-photo-256150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+  const image = 'https://images.pexels.com/photos/164558/pexels-photo-164558.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 
   const introduction = 'Diseños predefinidos'
   const title = 'Casas Tipo'

@@ -28,13 +28,15 @@
 }
 .description .descContainer h3 {
     font-size: 2rem;
+    display: flex;
+    align-items: center;
 }
 .description .descContainer h1 {
     font-size: 4rem;
     margin-bottom: 3rem;
 }
 .description .descContainer p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-top: 1rem;
 }
 .description .more-data {
