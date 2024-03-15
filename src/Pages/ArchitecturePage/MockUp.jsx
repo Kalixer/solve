@@ -25,7 +25,8 @@ function MockUpDef({image, introduction, title, text, moreData}) {
                 {text}
             </div>
 
-            <div className='more-data'>
+            <div className='ventajas'>
+                <h3>Ventajas</h3>
                 {moreData}
             </div>
 
@@ -44,7 +45,8 @@ function MockUpReverse({image, introduction, title, text, moreData}) {
                 {text}
             </div>
 
-            <div className='more-data'>
+            <div className='ventajas'>
+                <h3>Ventajas</h3>
                 {moreData}
             </div>
 
