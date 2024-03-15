@@ -5,7 +5,6 @@ Website for SOLVE engineer and house building services.
 ## Features
 
 - Built on React.js and Sass
-- Only desktop view
 - Static Page
 
 
