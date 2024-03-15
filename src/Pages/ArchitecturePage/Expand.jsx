@@ -2,6 +2,9 @@ import React from 'react'
 import './Expand.scss'
 import { MockUpDef } from './MockUp'
 
+import { FaHelmetSafety } from "react-icons/fa6";
+import { FaKey } from "react-icons/fa";
+
 function Expand() {
   const image = 'https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 
@@ -16,6 +19,8 @@ function Expand() {
   )
   const moreData = (
     <>
+      <p> <FaHelmetSafety /> Supervisión de obras por Ingeniero Civil </p>
+      <p> <FaKey /> Modalidad de construcción llave en mano </p>
       <p> Si tu vida crece, ¿por qué no tu hogar? </p>
     </>
   )

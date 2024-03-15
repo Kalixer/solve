@@ -2,6 +2,11 @@ import React from 'react'
 import './YourHouseDesign.scss'
 import { MockUpReverse } from './MockUp'
 
+
+import { FaTools } from "react-icons/fa";
+import { FaHelmetSafety } from "react-icons/fa6";
+import { FaKey } from "react-icons/fa";
+
 function YourHouseDesign() {
   const image = 'https://images.pexels.com/photos/7641854/pexels-photo-7641854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
 
@@ -16,7 +21,9 @@ function YourHouseDesign() {
   )
   const moreData = (
     <>
-      <p> Con la asesoría de un ingeniero civil respladamos tu hogar </p>
+      <p> <FaTools /> Elaboracion de presupiesto para construcción inmediata </p>
+      <p> <FaHelmetSafety /> Supervisión de obras por Ingeniero Civil </p>
+      <p> <FaKey /> Modalidad de construcción llave en mano </p>
     </>
   )
 

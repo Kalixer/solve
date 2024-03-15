@@ -30,7 +30,7 @@ function MockUpDef({image, introduction, title, text, moreData}) {
                 {moreData}
             </div>
 
-          </section>
+        </section>
     </>
   )
 }
@@ -50,7 +50,7 @@ function MockUpReverse({image, introduction, title, text, moreData}) {
                 {moreData}
             </div>
 
-          </section>
+        </section>
         
         
         <section className='image'>
