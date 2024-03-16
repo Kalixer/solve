@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-.BlogDisplayIntro .masterContainer {
+.BlogDisplayIntro .listView {
     // margin-top: 4rem;
     padding: 2rem 0;
     height: 90%;
@@ -19,19 +19,19 @@
     border-top: grey 2px solid;
 }
 
-.BlogDisplayIntro .image {
+.BlogDisplayIntro .listView .image {
     height: 90%;
     width: 38vw;
     // border: solid 1px blue;
 }
-.BlogDisplayIntro .image figure {
+.BlogDisplayIntro .listView .image figure {
     height: 100%;
     width: inherit;
 }
-.BlogDisplayIntro .image figure:hover {
+.BlogDisplayIntro .listView .image figure:hover {
     cursor: pointer;
 }
-.BlogDisplayIntro .image figure img{
+.BlogDisplayIntro .listView .image figure img{
     height: inherit;
     width: inherit;
     object-fit: cover;
@@ -39,7 +39,7 @@
     border-radius: 0px;
 }
 
-.BlogDisplayIntro .info {
+.BlogDisplayIntro .listView .info {
     height: 45vh;
     width: 45vw;
 
@@ -51,26 +51,26 @@
 
     // padding-bottom: 4rem;
 }
-.BlogDisplayIntro .info .texto{
+.BlogDisplayIntro .listView .info .texto{
     width: 45vw;
 
     margin-top: 2rem;
     padding-left: 2rem;
 }
-.BlogDisplayIntro .info .texto h2{
+.BlogDisplayIntro .listView .info .texto h2{
     font-size: 4rem;
 }
-.BlogDisplayIntro .info .texto h2:hover {
+.BlogDisplayIntro .listView .info .texto h2:hover {
     cursor: pointer;
 }
-.BlogDisplayIntro .info .texto h3{
+.BlogDisplayIntro .listView .info .texto h3{
     font-size: 2.2rem;
     font-weight: 400;
 
     color: var(--davys-gray);
     margin: 2rem 0;
 }
-.BlogDisplayIntro .info p{
+.BlogDisplayIntro .listView .info p{
     // margin: 4rem 0;
     padding-top: 2rem;
     padding-left: 2rem;
@@ -80,8 +80,73 @@
     color: var(--davys-gray);
 }
 
+// Here is the grid view
+.BlogDisplayGrid {
+    height: 60vh;
+    width: 30%;
+    // border: solid 1px purple;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BlogDisplayGrid .listView {
+    // margin-top: 4rem;
+    padding: 2rem 0;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: grey 2px solid;
+}
+.BlogDisplayGrid .gridView{
+    flex-direction: column;
+    align-items: center;
+}
+.BlogDisplayGrid .gridView .image {
+    height: 33vh;
+    width: 25vw;
+}
+.BlogDisplayGrid .gridView .image figure img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.BlogDisplayGrid .gridView .info {
+    height: 20vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BlogDisplayGrid .gridView .info .texto {
+    width: inherit;
+    margin-top: 2rem;
+}
+.BlogDisplayGrid .gridView .info .texto h2 {
+    font-size: 2rem;
+}
+.BlogDisplayGrid .gridView .info .texto h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--davys-gray);
+    margin: 1rem 0;
+}
+.BlogDisplayGrid .gridView .info p {
+    padding-top: 2rem;
+    /* padding-left: 2rem; */
+    font-size: 1.4rem;
+    border-top: solid 1px var(--davys-gray);
+    color: var(--davys-gray);
+}
+
+
+
 @media (max-width:500px) {
-    .BlogDisplayIntro .masterContainer {
+    .BlogDisplayIntro .listView {
         flex-direction: column;
     }
     .BlogDisplayIntro .image {

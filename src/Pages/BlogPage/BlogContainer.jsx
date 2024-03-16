@@ -2,7 +2,7 @@ import React from 'react'
 import './BlogContainer.scss'
 import { BlogDisplayIntro } from './BlogDisplayIntro'
 
-function BlogContainer({display}) {
+function BlogContainer({displayList}) {
 
   // Tengo que meter esto en un array de objetos
   const image1 = 'https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
@@ -25,28 +25,56 @@ function BlogContainer({display}) {
     return description
   }
 
-  if(display === 'grid') {
+  if(displayList === false) {
     description1 = summerUp(description1)
   }
 
   return (
     <div className='BlogContainer'>
-      <div className='container'>
-        <BlogDisplayIntro 
+      <div className={ displayList ? 'listContainer' : 'gridContainer' }>
+
+      <BlogDisplayIntro 
           image={image1}
           title={title1} 
           description={description1} 
-          author={author1}/>
+          author={author1}
+          displayList={displayList}
+        />
         <BlogDisplayIntro 
           image={image2}
           title={title2} 
           description={description2} 
-          author={author2}/>
+          author={author2}
+          displayList={displayList}
+        />
         <BlogDisplayIntro 
           image={image3}
           title={title3} 
           description={description3} 
-          author={author3}/>
+          author={author3}
+          displayList={displayList}
+        />
+        <BlogDisplayIntro 
+          image={image1}
+          title={title1} 
+          description={description1} 
+          author={author1}
+          displayList={displayList}
+        />
+        <BlogDisplayIntro 
+          image={image2}
+          title={title2} 
+          description={description2} 
+          author={author2}
+          displayList={displayList}
+        />
+        <BlogDisplayIntro 
+          image={image3}
+          title={title3} 
+          description={description3} 
+          author={author3}
+          displayList={displayList}
+        />
       </div>
     </div>
   )

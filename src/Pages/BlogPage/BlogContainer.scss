@@ -10,6 +10,13 @@
     align-items: center;
 }
 
-.BlogContainer .container {
+.BlogContainer .listContainer {
     width: 90vw;
+}
+.BlogContainer .gridContainer {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

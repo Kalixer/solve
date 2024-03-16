@@ -5,13 +5,14 @@ import { BlogContainer } from './BlogContainer'
 import { InfoIntro } from './InfoIntro'
 
 function BlogPage() {
-    const [display, setDisplay] = React.useState('list')
+    const [displayList, setDisplayList] = React.useState(true)
 
+    // This is for testing only
     const displayDisplay = () => {
-      console.log(display)
+      console.log(displayList)
     }
-    const toggleDisplay = (item) => {
-      setDisplay(item)
+    const toggleDisplay = (state) => {
+      setDisplayList(state)
 
       displayDisplay()
     }
@@ -26,7 +27,7 @@ function BlogPage() {
     <div className='BlogPage'>
         <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
         <InfoIntro toggleDisplay={toggleDisplay}/>
-        <BlogContainer display={display}/>
+        <BlogContainer displayList={displayList}/>
     </div>
   )
 }

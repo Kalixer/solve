@@ -16,8 +16,8 @@ function InfoIntro({toggleDisplay}) {
             <section className='boxSection'> 
                 <div className='boxContainer'>
                     {/* Aquí tienes que hacer un handleClick que cambie el display */}
-                    <div className='box' onClick={() => toggleDisplay('list')}><BsViewList /></div>
-                    <div className='box' onClick={() => toggleDisplay('grid')}><BsGrid /></div>
+                    <div className='box' onClick={() => toggleDisplay(true)}><BsViewList /></div>
+                    <div className='box' onClick={() => toggleDisplay(false)}><BsGrid /></div>
                 </div>
             </section>
 
