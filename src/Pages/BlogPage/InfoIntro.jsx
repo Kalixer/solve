@@ -4,7 +4,7 @@ import './InfoIntro.scss'
 import { BsViewList } from "react-icons/bs";
 import { BsGrid } from "react-icons/bs";
 
-function InfoIntro() {
+function InfoIntro({toggleDisplay}) {
   return (
     <div className='InfoIntro'>
         <div className='masterContainer'>
@@ -16,8 +16,8 @@ function InfoIntro() {
             <section className='boxSection'> 
                 <div className='boxContainer'>
                     {/* Aquí tienes que hacer un handleClick que cambie el display */}
-                    <div className='box'><BsViewList /></div>
-                    <div className='box'><BsGrid /></div>
+                    <div className='box' onClick={() => toggleDisplay('list')}><BsViewList /></div>
+                    <div className='box' onClick={() => toggleDisplay('grid')}><BsGrid /></div>
                 </div>
             </section>
 
