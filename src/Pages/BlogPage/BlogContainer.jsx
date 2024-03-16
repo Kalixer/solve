@@ -4,6 +4,7 @@ import { BlogDisplayIntro } from './BlogDisplayIntro'
 
 function BlogContainer({display}) {
 
+  // Tengo que meter esto en un array de objetos
   const image1 = 'https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   const image2 = 'https://images.pexels.com/photos/259988/pexels-photo-259988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
   const image3 = 'https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
