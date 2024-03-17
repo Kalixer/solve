@@ -175,4 +175,15 @@
     .BlogDisplayIntro .info p {
         display: none;
     }
+
+    .BlogDisplayGrid {
+        width: 80vw;
+    }
+    .BlogDisplayGrid .gridView .image {
+        width: 80vw;
+        padding: 0;
+    }
+    .BlogDisplayGrid .gridView .info {
+        width: 80vw;
+    }
 }
