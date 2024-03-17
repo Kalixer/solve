@@ -149,30 +149,30 @@
     .BlogDisplayIntro .listView {
         flex-direction: column;
     }
-    .BlogDisplayIntro .image {
+    .BlogDisplayIntro .listView .image {
         padding: 0;
         position: absolute;
         height: 50vh;
         width: 85vw;
         filter: brightness(40%);
     }
-    .BlogDisplayIntro .info {
+    .BlogDisplayIntro .listView .info {
         width: 85vw;
         z-index: 2;
     }
-    .BlogDisplayIntro .info .texto {
+    .BlogDisplayIntro .listView .info .texto {
         width: 75vw;
         padding: 2rem;
     }
-    .BlogDisplayIntro .info .texto h2 {
+    .BlogDisplayIntro .listView .info .texto h2 {
         color: var(--antiflash-white);
         font-size: 3.2rem;
     }
-    .BlogDisplayIntro .info .texto h3 {
+    .BlogDisplayIntro .listView .info .texto h3 {
         color: var(--antiflash-white);
         font-size: 1.6rem;
     }
-    .BlogDisplayIntro .info p {
+    .BlogDisplayIntro .listView .info p {
         display: none;
     }
 
