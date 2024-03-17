@@ -2,8 +2,6 @@ import React from 'react'
 import './BlogDisplayIntro.scss'
 
 function BlogDisplayIntro({image, title, description, author, displayList}) {
-    // const image = 'https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    // const image = ''
 
   return (
     <div className={displayList ? 'BlogDisplayIntro' : 'BlogDisplayGrid'}>
