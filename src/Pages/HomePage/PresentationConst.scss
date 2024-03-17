@@ -71,8 +71,12 @@
 }
 
 @media(max-width: 500px) {
+    .PresentationConst {
+        height: 125vh;
+    }
     .PresentationConst .constDescription {
         width: 100vw;
+        height: 125vh;
     }
     .PresentationConst .constDescription .textContainer {
         padding: 0 4rem;
@@ -88,4 +92,12 @@
     .PresentationConst .divider {
         display: none;
     }
+
+    .PresentationConst .imageContainer {
+        height: 125vh;
+    }
+    .PresentationConst .imageContainer figure{
+        height: inherit;
+    }
+
 }
