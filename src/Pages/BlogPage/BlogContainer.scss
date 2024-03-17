@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.BlogContainer > div {
+    border-top: solid 2px grey;
+}
+
 .BlogContainer .listContainer {
     width: 90vw;
 }
@@ -24,6 +28,4 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-
-    border-top: solid 2px grey;
 }
