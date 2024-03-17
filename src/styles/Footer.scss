@@ -49,6 +49,12 @@
     width: 10vw;
     // margin: 1rem;
 }
+.Footer .info .infoBlock .socialMedia a {
+    color: white;
+}
+.Footer .info .infoBlock .socialMedia a:hover {
+    color: var(--khaki);
+}
 .Footer .info .infoBlock svg{
     margin: 1rem .5rem;
     height: 25px;
