@@ -13,6 +13,11 @@
 .BlogContainer .listContainer {
     width: 90vw;
 }
+.BlogContainer .listContainer .BlogDisplayIntro:nth-child(1) .listView {
+    border: none;
+    width: 90vw;
+}
+
 .BlogContainer .gridContainer {
     width: 90vw;
     display: flex;

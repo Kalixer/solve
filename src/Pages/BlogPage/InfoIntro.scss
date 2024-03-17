@@ -75,9 +75,19 @@
 
 @media (max-width: 500px) {
     .InfoIntro .masterContainer {
-        justify-content: center;
+        justify-content: space-around;
     }
+    // .InfoIntro .masterContainer .boxSection {
+    //     display: none;
+    // }
+    .InfoIntro .masterContainer section {
+        margin: 0;
+    }
+
     .InfoIntro .masterContainer .boxSection {
-        display: none;
+        width: 25vw;
+    }
+    .InfoIntro .masterContainer .boxSection .boxContainer {
+        justify-content: center;
     }
 }
