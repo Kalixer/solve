@@ -22,7 +22,7 @@ function BlogContainer({displayList}) {
       author: 'Kalixer & ChatGPT',
       title: 'Diseño modular, ¿realmente necesitaré una ampliación?',
       image: 'https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      description: 'Ofrecemos una metodología que no solo satisface tus necesidades actuales, sino que también te prepara para lo que viene. Imagina la libertad de ampliar tu casa sin las complicaciones de una construcción tradicional. Con nuestro enfoque revolucionario, cada casa es una inversión en tu futuro.'
+      description: 'Nuestra metodología también te prepara para el futuro. Imagina la libertad de ampliar tu casa sin las complicaciones de una construcción tradicional. Con nuestro enfoque revolucionario, cada casa es una inversión en tu futuro.'
     },
     {
       author: 'Kalixer & ChatGPT',
@@ -40,7 +40,7 @@ function BlogContainer({displayList}) {
       author: 'Kalixer & ChatGPT',
       title: 'Diseño modular, ¿realmente necesitaré una ampliación?',
       image: 'https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      description: 'Ofrecemos una metodología que no solo satisface tus necesidades actuales, sino que también te prepara para lo que viene. Imagina la libertad de ampliar tu casa sin las complicaciones de una construcción tradicional. Con nuestro enfoque revolucionario, cada casa es una inversión en tu futuro.'
+      description: 'Nuestra metodología también te prepara para el futuro. Imagina la libertad de ampliar tu casa sin las complicaciones de una construcción tradicional. Con nuestro enfoque revolucionario, cada casa es una inversión en tu futuro.'
     },
   ]
 
