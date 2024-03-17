@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/Footer.scss'
 import logoSolve from '../assets/logoSolve.png'
-import { SlSocialFacebook } from "react-icons/sl";
-import { SlSocialLinkedin } from "react-icons/sl";
+import { SiFacebook } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
 import { SiWhatsapp } from "react-icons/si";
 
 function Footer() {
@@ -18,8 +18,8 @@ function Footer() {
             <img src={logoSolve} alt="" />
             <div className='socialMedia'>
               <SiWhatsapp/>
-              <SlSocialFacebook/>
-              <SlSocialLinkedin/>
+              <SiFacebook />
+              <SiInstagram />
             </div>
           </div>
 
