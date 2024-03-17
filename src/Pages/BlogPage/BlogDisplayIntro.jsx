@@ -1,14 +1,12 @@
 import React from 'react'
 import './BlogDisplayIntro.scss'
 
-function BlogDisplayIntro({image, title, description, author}) {
-    // const image = 'https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    // const image = ''
+function BlogDisplayIntro({image, title, description, author, displayList}) {
 
   return (
-    <div className='BlogDisplayIntro'>
+    <div className={displayList ? 'BlogDisplayIntro' : 'BlogDisplayGrid'}>
 
-        <div className='masterContainer'>
+        <div className={displayList ? 'listView': 'gridView'}>
             
             {/* <section className='date'>
 
