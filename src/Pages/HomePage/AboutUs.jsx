@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutUs.scss';
-import houseInteriorVertical from '../../assets/houseInteriorVertical.jpg'
 
 function AboutUs() {
     const image = 'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
