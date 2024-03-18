@@ -15,8 +15,9 @@ function Home() {
         <AboutUs/>
         <BarrData/>
         <PresentationIng/>
-        <FastTrustData/>
+        <FastTrustData type={'engineering'}/>
         <PresentationConst/>
+        <FastTrustData type={'construction'}/>
         <LetsConect/>
     </div>
   )

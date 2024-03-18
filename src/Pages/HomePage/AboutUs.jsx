@@ -3,14 +3,25 @@ import './AboutUs.scss';
 import houseInteriorVertical from '../../assets/houseInteriorVertical.jpg'
 
 function AboutUs() {
-    const about = ''
+    const about = (
+        <>
+            <h3>
+                Solve es una empresa de servicios cuyo principal objetivo es re<strong>solve</strong>r las necesidades de sus clientes. 
+            </h3>
+            <h3>
+                Para ello abarcamos tres líneas de negocio: <strong>Ingeniería, Construcción e Industrial.</strong> <br />
+                Las cuales, aunque independientes, son especialistas en su área y actúan sinérgicamente en respuestas a las demandas que  presentan nuestros clientes
+            </h3>
+        </>
+    )
+
     return (
       <div className='AboutUs'>
           <section className='contentDescript'>
               <div className='text'>
-                  <p>About Us</p>
-                  <h1>Title of Description</h1>
-                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ullam architecto vel vero nesciunt ex eligendi, excepturi molestiae dolor exercitationem asperiores adipisci minima recusandae voluptatem obcaecati quisquam quos maxime ut!</h3>
+                  <p>Sobre nosotros</p>
+                  <h1>Nuestra Empresa</h1>
+                    {about}
               </div>
               <div className='boton'>
                   <button type='button'>Click me!</button>
