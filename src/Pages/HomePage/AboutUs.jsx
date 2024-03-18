@@ -3,6 +3,9 @@ import './AboutUs.scss';
 import houseInteriorVertical from '../../assets/houseInteriorVertical.jpg'
 
 function AboutUs() {
+    const image = 'https://images.pexels.com/photos/93400/pexels-photo-93400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+    // const image = 'https://images.pexels.com/photos/53176/architecture-iron-steel-building-53176.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+
     const about = (
         <>
             <h3>
@@ -30,7 +33,7 @@ function AboutUs() {
 
           <section className='imagePresentation'>
               <figure>
-                  <img src={houseInteriorVertical} alt="" />
+                  <img src={image} alt="" />
               </figure>
           </section>
       </div>
