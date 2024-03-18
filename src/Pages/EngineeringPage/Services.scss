@@ -25,28 +25,33 @@
     margin-left: 4rem;
     width: 50%;
 }
-.Services .servicesContainer .serviceBar li {
+.Services .servicesContainer .serviceBar .serviceBox li {
     list-style: none;
-    margin: 4rem 2rem;
+    margin: 4rem 0 4rem 2rem;
     display: flex;
     align-items: center;
 
     font-size: 1.8rem;
 }
-.Services .servicesContainer .serviceBar li svg {
-    height: 50px;
-    width: 50px;
+.Services .servicesContainer .serviceBar .serviceBox li .icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 1rem;
 }
-.Services .servicesContainer .serviceBar li p{
+.Services .servicesContainer .serviceBar .serviceBox li .icon svg {
+    height: inherit;
+    width: inherit;
+}
+.Services .servicesContainer .serviceBar .serviceBox li p{
     padding: 0 2rem;
 }
 
-.Services .servicesContainer figure {
+.Services .servicesContainer .imageContainer {
     padding: 4rem 14rem 4rem 0;
     height: 80vh;
     // border: solid 1px aquamarine;
 }
-.Services .servicesContainer figure img{
+.Services .servicesContainer .imageContainer img{
     height: 100%;
     object-fit: cover;
     filter: drop-shadow(0 0 8px grey);
