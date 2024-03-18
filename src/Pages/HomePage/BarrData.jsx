@@ -23,9 +23,9 @@ function BarrData() {
                 {/* <p>{data}</p> */}
                 {description}
             </div>
-            <div className='Data-button'>
+            {/* <div className='Data-button'>
                 <button type='button'>More</button>
-            </div>
+            </div> */}
         </div>
     </div>
   )

@@ -23,9 +23,9 @@ function AboutUs() {
                   <h1>Nuestra Empresa</h1>
                     {about}
               </div>
-              <div className='boton'>
+              {/* <div className='boton'>
                   <button type='button'>Click me!</button>
-              </div>
+              </div> */}
           </section>
 
           <section className='imagePresentation'>
