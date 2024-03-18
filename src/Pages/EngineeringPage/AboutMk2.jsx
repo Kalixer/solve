@@ -5,7 +5,32 @@ import { RxDividerHorizontal } from "react-icons/rx";
 
 
 function AboutMk2() {
-    const texto = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum doloribus ratione, eveniet impedit eaque vitae quos, eum nulla libero quaerat necessitatibus, ut quisquam pariatur minima illo qui vel voluptatum.`
+    // const texto = `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rerum doloribus ratione, eveniet impedit eaque vitae quos, eum nulla libero quaerat necessitatibus, ut quisquam pariatur minima illo qui vel voluptatum.`
+
+    const description = (
+        <>
+            <p>
+                Somos una empresa que, desde 2008, provee servicios de ingeniería y construcción.
+            </p>
+            <p>
+                Nuestro principal objetivo es re<strong>solve</strong>r las necesidades de sus clientes.
+            </p>
+            <p>
+                Desarrollamos proyectos de Ingeniería Estructural en destintas materialidades, siendo especialistas en el diseño de Acero sistemas y metodologías de construcción como <strong>Metalcon y Tubest</strong>. 
+            </p>
+            <p>
+                Dentro de nuestros servicios se encuentra
+            </p>
+            <p>
+                <strong>
+                    Desarrollo de proyectos de Cálculo Estructural. <br />
+                    Inspección técnica en obra: Para proyectos Metalcon y Tubest
+                </strong>
+            </p>
+        
+        </>
+    )
+
     // const image = 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     const image = 'https://images.pexels.com/photos/5582597/pexels-photo-5582597.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1'
   return (
@@ -23,9 +48,7 @@ function AboutMk2() {
                     <div className='textContent'>
                         <h3><RxDividerHorizontal/> Sobre nostoros</h3>
                         <h1>Solve: Ingeniería y Cálculo</h1>
-                        <p>{texto}</p>
-                        <p>{texto}</p>
-                        <p>{texto}</p>
+                        {description}
                     </div>
 
                     <div className='infoBlocks'>
