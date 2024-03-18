@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/Footer.scss'
-import logoSolve from '../assets/logoSolve.png'
+
+import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
+
 import { SiWhatsapp } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
 import { SiInstagram } from "react-icons/si";
 
 function Footer() {
+  const [hover, setHover] = React.useState(false)
+
 
   const logos = [
     {
@@ -35,7 +39,14 @@ function Footer() {
         <div className='infoBlockContainer'>
           
           <div className='infoBlock'>
-            <img src={logoSolve} alt="" />
+          
+          <Link to='/' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+            {(hover) 
+              ? <LogoSolve key={'grey'} className='logoSolve' fill='var(--penn-blue)'/>
+              : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
+            }
+          </Link>
+            
             <div className='socialMedia'>
               {logos.map(elemento => {
                 return (

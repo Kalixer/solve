@@ -38,11 +38,15 @@
     justify-content: center;
     padding-left: 2rem;
 }
-.Footer .info .infoBlock img {
+.Footer .info .infoBlock .logoSolve {
     height: 50px;
     width: 75px;
     margin: 1rem;
     // object-fit: cover;
+}
+.Footer .info .infoBlock .logoSolve:hover {
+    color: var(--penn-blue);
+    cursor: pointer;
 }
 .Footer .info .infoBlock .socialMedia {
     // border: solid 1px white;
@@ -53,7 +57,7 @@
     color: white;
 }
 .Footer .info .infoBlock .socialMedia a:hover {
-    color: var(--khaki);
+    color: var(--penn-blue);
 }
 .Footer .info .infoBlock svg{
     margin: 1rem .5rem;
