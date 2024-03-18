@@ -64,7 +64,17 @@ function FastTrustData({type}) {
     },
   ]
 
+  // Esto es para iterar sobre este array filtrado en función del tipo
   const currentArr = features.filter((item) => item.type === type)
+
+  let area = ''
+  
+  if(type === 'engineering') {
+    area = 'Ingeniería'
+  }
+  else if (type === 'construction') {
+    area = 'Construcción'
+  }
 
   // const calcDesc = (<p>Desarrollo de proyectos de Cálculo Estructural. <br />
   // Inspección técnica en obra: Para proyectos Metalcon y Tubest</p>)
@@ -74,6 +84,7 @@ function FastTrustData({type}) {
 
   return (
     <div className='FastTrustData'>
+      <h1 className='title'>Solve {area}:</h1>
       <li className='fast-container'>
         {
           currentArr.map(feature => {

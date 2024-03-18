@@ -1,5 +1,5 @@
 .FastTrustData {
-    height: 50vh;
+    height: 52vh;
     width: 100vw;
     // background-color: #001122;
     // background-color: #101720;
@@ -13,12 +13,17 @@
 
     color: white;
 }
+.FastTrustData .title {
+    font-size: 4rem;
+    padding-top: 4rem;
+    text-align: center;
+}
 .FastTrustData .fast-container {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 4rem;
+    padding: 0 4rem;
 }
 .FastTrustData .fast-container .fast-block {
     height: 30vh;
