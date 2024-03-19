@@ -1,6 +1,5 @@
 import React from 'react'
 import './Pros.scss'
-import { AiOutlineExperiment } from "react-icons/ai";
 
 import { LuCrosshair } from "react-icons/lu";
 import { LuHourglass } from "react-icons/lu";
