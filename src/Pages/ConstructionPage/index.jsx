@@ -17,7 +17,7 @@ function ConstructionPage() {
         <div className='ConstructionPage'>
         <Pros/>
         <About/>
-        <Services/>
+        <Services type={'Construction'}/>
         <CategoryBlocks/>
         <OurClients/>
         <LetsConect/>
