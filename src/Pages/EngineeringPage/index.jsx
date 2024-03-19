@@ -20,7 +20,7 @@ function EngineeringPage() {
     <>
       <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
       <div className='EngineeringPage'>
-        <Pros/>
+        <Pros typePage={'Engineering'}/>
         {/* <About/> */}
         <AboutMk2/>
         <OurClientsLogos/>

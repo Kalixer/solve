@@ -15,7 +15,7 @@ function ConstructionPage() {
     <>
         <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
         <div className='ConstructionPage'>
-        <Pros/>
+        <Pros typePage={'Construction'}/>
         <About/>
         <Services type={'Construction'}/>
         <CategoryBlocks/>
