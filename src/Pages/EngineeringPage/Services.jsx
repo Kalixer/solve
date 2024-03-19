@@ -27,7 +27,7 @@ function Services({type}) {
       type: 'Engineering',
       title: 'Experiencia',
       icon: <LuLocateFixed />,
-      text: 'Experiencia en Montaje y Construcción desarrollados en Sistemas MetalCon y Tubest',
+      text: 'Experiencia en Montaje y Construcción desarrollados en Sistemas Metalcon y Tubest',
     },
     {
       type: 'Engineering',
