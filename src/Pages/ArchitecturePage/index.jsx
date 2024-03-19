@@ -15,7 +15,7 @@ function ArchitecturePage() {
     <div className='ArchitecturePage'>
       <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
       {/* Aquí (en 'Pros') irán los servicios resumidos */}
-      <Pros/>
+      <Pros typePage={'Architecture'}/>
       <About/>
       <HouseType/>
       <YourHouseDesign/>

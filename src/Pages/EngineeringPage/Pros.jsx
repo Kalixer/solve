@@ -9,6 +9,9 @@ import { LuKeyRound } from "react-icons/lu";
 import { LuHome } from "react-icons/lu";
 import { FaHelmetSafety } from "react-icons/fa6";
 
+import { LuCog } from "react-icons/lu";
+import { LuExpand } from "react-icons/lu";
+
 function Pros({typePage}) {
 
   const ventajas = [
@@ -47,6 +50,24 @@ function Pros({typePage}) {
       title: 'Supervisión por Ingeniero Civil',
       description: (<p>Seguridad, calidad y eficiencia garantizadas</p>),
       logo: <FaHelmetSafety />,
+    },
+    {
+      type: 'Architecture',
+      title: 'Casas Tipo',
+      description: (<p>Ponemos a disposición modelos de casas de 1 y 2 pisos para llegar y construír</p>),
+      logo: <LuHome />,
+    },
+    {
+      type: 'Architecture',
+      title: 'Personalización',
+      description: (<p>Si deseas dejar tu sello en tu hogar, puedes colaborar con nosotros para un diseño personalizado</p>),
+      logo: <LuCog />, 
+    },
+    {
+      type: 'Architecture',
+      title: 'Arquitectura Modular',
+      description: (<p>¿Planes a futuro? Con nuestra metodología hacer una ampliación no será un problema</p>),
+      logo: <LuExpand />,
     },
   ]
 

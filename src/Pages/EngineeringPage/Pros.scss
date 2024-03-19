@@ -32,7 +32,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: baseline;
+    // justify-content: space-between;
 }
 
 .Pros .advantageBox .box svg {
@@ -42,6 +43,7 @@
 }
 .Pros .advantageBox .box h3 {
     font-size: 2.6rem;
+    margin-bottom: 1rem;
 }
 .Pros .advantageBox .box p {
     text-align: center;
