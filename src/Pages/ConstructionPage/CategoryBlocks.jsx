@@ -1,41 +1,45 @@
 import React from 'react';
 import './CategoryBlocks.scss';
 
-const image1 = 'https://images.pexels.com/photos/1874636/pexels-photo-1874636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-const image2 = 'https://images.pexels.com/photos/1662159/pexels-photo-1662159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-const image3 = 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-const image4 = 'https://images.pexels.com/photos/2096147/pexels-photo-2096147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+import { Link } from 'react-router-dom'
+import { scrollToTop } from '../../utils/scrollToTop';
+
 function CategoryBlocks() {
+
+    const blocks = [
+        {
+            image: 'https://images.pexels.com/photos/1874636/pexels-photo-1874636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            name: 'Casas Tipo',
+        },
+        {
+            image: 'https://images.pexels.com/photos/1662159/pexels-photo-1662159.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            name: 'Arquitectura',
+        },
+        {
+            image: 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            name: 'Diseña tu casa',
+        },
+        {
+            image: 'https://images.pexels.com/photos/2096147/pexels-photo-2096147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            name: 'Ampliaciones',
+        }
+    ]
+
   return (
     <div className='CategoryBlocks'>
 
-        <div className='category'>
-            <figure>
-                <img src={image1} alt="" />
-            </figure>
-            <p>Casas Tipo</p>
-        </div>
-
-        <div className='category'>
-            <figure>
-                <img src={image2} alt="" />
-            </figure>
-            <p>Arquitectura</p>
-        </div>
-
-        <div className='category'>
-            <figure>
-                <img src={image3} alt="" />
-            </figure>
-            <p>Diseña tu casa</p>
-        </div>
-
-        <div className='category'>
-            <figure>
-                <img src={image4} alt="" />
-            </figure>
-            <p>Ampliaciones</p>
-        </div>
+        { blocks.map(block => {
+            return (
+                <Link to='/architecture' onClick={scrollToTop}>
+                    <div className='category' key={block.name}>
+                        <figure className='img-wrapper'>
+                            <img src={block.image} alt="" className='hover-zoom'/>
+                        </figure>
+                        <p>{block.name}</p>
+                    </div>
+                </Link>
+            )
+        })}
 
     </div>
   )
