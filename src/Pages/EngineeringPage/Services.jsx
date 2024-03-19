@@ -55,7 +55,7 @@ function Services({type}) {
     },
     {
       type: 'Construction',
-      title: 'Sistema de Construcción',
+      title: 'Supervisión',
       icon: <LuCalculator />,
       text: 'Las obras son supervisadas por Ingeniero Civil',
     },
@@ -90,7 +90,7 @@ function Services({type}) {
           <ul className='serviceBox'>
             {currentArr.map(service => {
               return(
-                <li>
+                <li key={service.title}>
                   <figure className='icon'>
                     {service.icon}
                   </figure>

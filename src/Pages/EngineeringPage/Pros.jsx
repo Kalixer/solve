@@ -66,7 +66,7 @@ function Pros({typePage}) {
 
         {currentArr.map(ventaja => {
           return(
-            <div className='box'>
+            <div className='box' key={ventaja.title}>
               {ventaja.logo}
               <h3>{ventaja.title}</h3>
               {ventaja.description}
