@@ -50,7 +50,7 @@ function Footer() {
             <div className='socialMedia'>
               {logos.map(elemento => {
                 return (
-                  <Link to={elemento.link}>
+                  <Link to={elemento.link} key={elemento.name}>
                     {elemento.logo}
                   </Link>
                 )
