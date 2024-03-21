@@ -25,7 +25,7 @@ function EngineeringPage() {
         <AboutMk2/>
         <OurClientsLogos/>
         <Services type={'Engineering'}/>
-        <OurClients name='name' logo='logo' date='date/date' review='review' pictures='pictures'/>
+        <OurClients type='Engineering'/>
         <LetsConect/>
       </div>
     </>
