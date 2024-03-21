@@ -6,32 +6,24 @@ function OurClientsLogos() {
 
   const companies = [
     {
-      name: 'Slack',
-      logo: 'https://www.svgrepo.com/show/448248/slack.svg',
+      name: 'Entel',
+      logo: 'https://seeklogo.com/images/E/entel-logo-CACC7DD81C-seeklogo.com.png',
     },
     {
-      name: 'Uber',
-      logo: 'https://www.svgrepo.com/show/349541/uber.svg',
+      name: 'PSC Ingeniería',
+      logo: 'https://www.pscingenieria.com/images/LOGO_2015.png',
     },
     {
-      name: 'Koenigsegg',
-      logo: 'https://seeklogo.com/images/K/koenigsegg-logo-A17A281EA5-seeklogo.com.png',
+      name: 'Bechtel Ingeniería',
+      logo: 'https://www.bechtel.com/assets/images/logos/c-logo.svg',
     },
     {
-      name: 'BMV',
-      logo: 'https://www.svgrepo.com/show/303123/bmw-logo.svg',
+      name: 'Cintac',
+      logo: 'https://www.cintac.cl/wp-content/themes/cintacnew/img/logo2.jpg',
     },
     {
-      name: 'Lexcorp',
-      logo: 'https://seeklogo.com/images/L/lexcorp-logo-4EBCDA550A-seeklogo.com.png',
-    },
-    {
-      name: 'Apple',
-      logo: 'https://seeklogo.com/images/A/apple-logo-E3DBF3AE34-seeklogo.com.png',
-    },
-    {
-      name: 'SpaceX',
-      logo: 'https://www.svgrepo.com/show/303337/spacex-logo.svg',
+      name: 'RL Arquitectura',
+      logo: 'https://static.wixstatic.com/media/b9e2b1_95dca88868794bc89c740631233248de~mv2.jpg/v1/crop/x_38,y_13,w_896,h_934/fill/w_70,h_73,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Untitled.jpg',
     },
   ]
   return (
@@ -44,7 +36,7 @@ function OurClientsLogos() {
 
         <div>
           <figure>
-            <img src={companies[5].logo} alt="" />
+            <img src={companies[0].logo} alt="" />
           </figure>
 
           <figure>

@@ -43,7 +43,7 @@
 }
 .OurClients .clientContainer figure{
     height: 100px;
-    width: 100px;
+    width: 200px;
     margin: 0 8rem;
 
     display: flex;
@@ -52,8 +52,8 @@
 }
 .OurClients .clientContainer img{
     height: 100px;
-    // width: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 }
 
 @media (max-width: 500px) {
