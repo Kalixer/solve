@@ -114,8 +114,13 @@
         display: none;
     }
 
+    .Header .logoContainer a h1 {
+        color: transparent;
+    }
+
     // Diseño de los palitos
     .Header .menu-responsive{
+        margin-top: 1rem;
         margin-right: 16px;
         display: flex;
         flex-direction: column;
@@ -125,6 +130,7 @@
         background: transparent;
         gap: .65rem;
         z-index: 5;
+        // border: solid 1px white;
     }
     .Header .menu-responsive:hover {
         cursor: pointer;

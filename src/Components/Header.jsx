@@ -78,8 +78,8 @@ function Header() {
         </Link>
       </div>
 
-      <button 
-        className="menu-responsive" 
+      <button className='menu-responsive'
+        
         onClick={toggleResponsive}
         >
           <div></div>
