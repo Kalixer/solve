@@ -85,7 +85,7 @@ function FastTrustData({type}) {
         {
           currentArr.map(feature => {
             return(
-              <ul className='fast-block'>
+              <ul className='fast-block' key={feature.title}>
                 {feature.logo}
                 <h3>{feature.title}</h3>
                 {feature.description}
