@@ -9,24 +9,31 @@ function LetsConect() {
 
   const updateName = (event) => {
     setNameMail(event.target.value)
+    console.log(phoneN, nameMail)
   }
   const updatePhoneN = (event) => {
     setPhoneN(event.target.value)
+    console.log(phoneN, nameMail)
   }
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    const form = {
-      name: nameMail,
-      phone: phoneN,
-      subject: 'Solicitud de información sobre sus servicios',
-      message: `Hola Solve. Mi nombre es ${nameMail}, estaba viendo tu sitio web y deseo saber más sobre los servicios que ofrecen. Le dejo mi número para ponernos en contacto: ${phoneN}. Espero poder trabajar con ustedes pronto.`,
-    }
 
-    const $buttonMailto = document.querySelector('#trucazo')
-    $buttonMailto.setAttribute('href', 
-    `mailto:al.caceres.ag72@gmail.com?subject=${form.subject} &body=${form.message}`)
-    $buttonMailto.click()
+    if(phoneN.length <= 6 || nameMail.length <= 2) {
+      alert('Uno de los parámetros no es válido. \nPor favor rellene el formulario')
+    } else {
+      const form = {
+        name: nameMail,
+        phone: phoneN,
+        subject: 'Solicitud de información sobre sus servicios',
+        message: `Hola Solve. Mi nombre es ${nameMail}, estaba viendo tu sitio web y deseo saber más sobre los servicios que ofrecen. Le dejo mi número para ponernos en contacto: ${phoneN}. Espero poder trabajar con ustedes pronto.`,
+      }
+  
+      const $buttonMailto = document.querySelector('#trucazo')
+      $buttonMailto.setAttribute('href', 
+      `mailto:al.caceres.ag72@gmail.com?subject=${form.subject} &body=${form.message}`)
+      $buttonMailto.click()
+    }
 
   }
 
