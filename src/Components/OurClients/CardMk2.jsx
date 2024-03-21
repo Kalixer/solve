@@ -2,10 +2,6 @@ import React from 'react'
 import './CardMk2.scss'
 
 function CardMk2({client, currentImage}) {
-    const image = 'https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-
-    const name = 'Johannes Shmithsen'
-    const comment ='Realmente es un sueño cumplido, dentro del plazo y excelente la comunicación. Realmente una obra maestra'
     let cType
     let reviewCard
 
