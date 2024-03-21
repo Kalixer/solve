@@ -17,9 +17,17 @@ function OurClients({type}) {
   if(type === 'Engineering'){
     // Añadir los clientes que tienen que ver con ingeniería
     clients.forEach(element => {
-      clientList.push(element)
+      if (element.type === 'company'){
+        clientList.push(element)
+      }
     })
-    
+  }
+  if(type === 'Construction') {
+    clients.forEach(element => {
+      if(element.type === 'house'){
+        clientList.push(element)
+      }
+    })
   }
 
   
@@ -28,9 +36,9 @@ function OurClients({type}) {
   
   // Este número lo cambias al hacer click
   const [iterator, setIterator] = React.useState(0)
-
+  
   const [currentImage, setCurrentImage] = React.useState(client.images[0])
-
+  
   // console.log(iterator)
 
   const handleClickAdd = () => {
@@ -39,29 +47,31 @@ function OurClients({type}) {
     } else {
       setIterator(iterator + 1)
     }
-
+    
   }
-   
+  
   const handleClickSustract = () => {
     if(iterator - 1 < 0){
       setIterator(clientList.length - 1)
     } else {
       setIterator(iterator - 1)
     }
-
+    
   }
   
+  // esto es para que cambie la imagen que se muestra
   React.useEffect(() => {
+    
     const intervalId = setInterval(() => {
       setCurrentImage(prevImage => {
         const currentIndex = client.images.findIndex(img => img === prevImage)
         const nextIndex = (currentIndex + 1) % client.images.length 
         return client.images[nextIndex]
       })
-    }, 5000000)
+    }, 3000)
 
     return () => clearInterval(intervalId)
-  }, client.images)
+  }, [client.images, client])
 
   React.useEffect(() => {
     setClient(clientList[iterator])

@@ -7,14 +7,28 @@ function CardMk2({client, currentImage}) {
     const name = 'Johannes Shmithsen'
     const comment ='Realmente es un sueño cumplido, dentro del plazo y excelente la comunicación. Realmente una obra maestra'
     let cType
+    let reviewCard
 
     // console.log(currentImage)
 
     if(client.type === 'company') {
-      
       cType = null
-    } else {
+      reviewCard = null
+    } else if (client.type === 'house') {
       cType = (<p>{client.houseType}</p>)
+
+      reviewCard = (
+        <div className='cardOpinion'>
+            <div className='userOpinion'>
+              <p className='name'></p>
+              <p className='comment'>"{client.comment}"</p>
+            </div>
+            <div className='userData'>
+                <p className='date'>{client.date}</p>
+                {cType}
+            </div>
+        </div>
+      )
     }
 
     /* 
@@ -31,16 +45,7 @@ function CardMk2({client, currentImage}) {
         </figure>
 
         
-        <div className='cardOpinion'>
-            <div className='userOpinion'>
-              <p className='name'></p>
-              <p className='comment'>"{comment}"</p>
-            </div>
-            <div className='userData'>
-                <p className='date'>{client.date}</p>
-                {cType}
-            </div>
-        </div>
+        {reviewCard}
     </div>
   )
 }

@@ -19,7 +19,7 @@ function ConstructionPage() {
         <About/>
         <Services type={'Construction'}/>
         <CategoryBlocks/>
-        <OurClients/>
+        <OurClients type={'Construction'}/>
         <LetsConect/>
         </div>
     </>
