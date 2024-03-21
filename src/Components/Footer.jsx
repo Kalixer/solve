@@ -59,8 +59,6 @@ function Footer() {
           
           <div className='infoBlock'  onClick={handleLogo}>
             
-          {/* Esto es solo para alinear */}
-          <h1></h1>
           
           <Link to='/' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
             {(hover) 
@@ -77,7 +75,7 @@ function Footer() {
             <h3>Contact</h3>
             <div className='info_P'>
               <p onClick={handleMail}>solve@solve.cl</p>
-              <a href="mailto:me@leonidasesteban.com" id="trucazo"></a>
+              <a href="mailto:me@leonidasesteban.com" id="trucazo"> </a>
               {/* <p></p> */}
               <Link to='https://wa.link/abicmz'>
                 <p>+569 7977 1139</p>
