@@ -92,3 +92,41 @@
     filter: drop-shadow(0 0 8px black);
     font-weight: bold;
 }
+
+@media(max-width:500px) {
+    .ContactPage {
+        height: 110vh;
+    }
+    .ContactPage .imageContainer {
+        height: inherit;
+    }
+    .ContactPage .imageContainer figure {
+        height: inherit;
+    }
+    .ContactPage .divider {
+        display: none;
+    }
+    .ContactPage .contactBox {
+        left: 0;
+        padding: 0;
+        width: 100vw;
+        height: inherit;
+    }
+    .ContactPage .contactBox h1{
+        text-align: center;
+    }
+    .ContactPage .contactBox form {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactPage .contactBox form .inputHorizontal {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactPage .contactBox form .inputMessage textarea {
+        width: 68vw;
+        height: 10vh;
+    }
+}
