@@ -33,9 +33,6 @@ function Footer() {
   const copyright = `© 2024 Solve Ltda. Todos los derechos reservados`
 
   const handleMail = () => {
-    const form = new FormData(this)
-    console.log(form)
-
     const subject = 'Quiero saber más de tu empresa'
     const message = 'Hola Solve. Mi nombre es [Nombre], estaba viendo tu sitio web y deseo saber más sobre los servicios que ofreces. Espero poder estar en contacto pronto'
 
