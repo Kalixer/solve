@@ -30,7 +30,7 @@ function CategoryBlocks() {
 
         { blocks.map(block => {
             return (
-                <Link to='/architecture' onClick={scrollToTop}>
+                <Link to='/architecture' onClick={scrollToTop} key={block.name}>
                     <div className='category' key={block.name}>
                         <figure className='img-wrapper'>
                             <img src={block.image} alt="" className='hover-zoom'/>
