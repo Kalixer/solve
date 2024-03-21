@@ -68,7 +68,7 @@ function Header() {
 
   return (
     <div className='Header'>
-      <div className='logoContainer' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+      <div className='logoContainer' onClick={scrollToTop} onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <Link to='/'>
           {(hover) 
             ? <LogoSolve key={'grey'} className='logoSolve' fill='var(--penn-blue)'/>
