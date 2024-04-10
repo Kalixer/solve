@@ -24,7 +24,7 @@
     // filter: none;
 }
 .Description .categoryContainer .category-false:hover {
-    color: white;
+    color: var(--penn-blue);
     cursor: pointer;
 }
 .Description h1 {
@@ -37,7 +37,7 @@
     width: 20vw;
     // background-color: var(--antiflash-white);
     background-color: rgba(27, 77, 193, 0.5);
-    box-shadow: 0px 0px 20px 3px var(--penn-blue);
+    box-shadow: 0px 0px 10px 3px var(--penn-blue);
 
     border-radius: 8px;
 }
