@@ -44,8 +44,9 @@
     width: 20px;
 }
 .ProjectsPage .boton:hover {
-    background-color: rgba(69, 69, 69, 0.689);
-    border: solid 1px black;
+    background-color: rgba(69, 69, 69, 0.5);
+    border-radius: 4px;
+    // border: solid 1px black;
     cursor: pointer;
 }
 .ProjectsPage .botonAnterior {
