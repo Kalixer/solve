@@ -38,11 +38,14 @@
 }
 .StillNotAnswer .contact .text h2{
     font-size: 5rem;
+    width: 70vw;
+    text-align: center;
 }
 .StillNotAnswer .contact .text p {
     padding: 2rem 0;
     font-size: 2.6rem;
     width: 40vw;
+    text-align: center;
 }
 .StillNotAnswer .contact .text p strong{
     font-weight: 400;
@@ -60,6 +63,7 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .StillNotAnswer .rrss .cuadrado {
     height: 30px;
