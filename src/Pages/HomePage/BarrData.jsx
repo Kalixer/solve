@@ -18,7 +18,7 @@ function BarrData() {
         </figure>
         <div className='Data'>
             <div className='Data-texto'>
-                <h2>Nuestra especiladidad</h2>
+                <h2>Nuestra especialidad</h2>
                 {description}
             </div>
             {/* <div className='Data-button'>
