@@ -53,3 +53,22 @@
     font-style: italic;
     font-size: 1.8rem;
 }
+
+@media (max-width: 500px) {
+    .Description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Description .categoryContainer {
+        font-size: 1.6rem;
+        display: flex;
+    }
+    .Description h1 {
+        font-size: 3.6rem;
+        text-align: center;
+    }
+    .Description .reviewContainer {
+        width: 70vw;
+    }
+}
