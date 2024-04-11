@@ -46,3 +46,24 @@
     padding-top: 1rem;
     padding-right: 2rem;
 }
+.mobView {
+    display: none;
+}
+@media (max-width: 500px) {
+    .deskView {
+        display: none;
+    }
+    .mobView{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ProjectData .infoBlock:nth-child(1) {
+        width: 100%;   
+        border: none;
+    }
+    .ProjectData .infoBlock{
+        width: 100%;   
+        border: none;
+    }
+}

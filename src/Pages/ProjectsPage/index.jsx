@@ -23,17 +23,20 @@ function ProjectsPage() {
         <button className='boton botonAnterior'><SlArrowLeft fill='white'/></button>
         <button className='boton botonSiguiente'><SlArrowRight fill='white' /></button>
 
-        <Description 
-          areaSolve={project.areaSolve}
-          review={review}
-        />
-        <ProjectData
-          areaSolve={project.areaSolve}
-          client={project.client}
-          clientLogo={project.clientLogo}
-          houseType={project.houseType}
-          info={project.info}
-        />
+        <div className='component-container'>
+          <Description 
+            areaSolve={project.areaSolve}
+            review={review}
+          />
+          <ProjectData
+            areaSolve={project.areaSolve}
+            client={project.client}
+            clientLogo={project.clientLogo}
+            houseType={project.houseType}
+            info={project.info}
+          />
+        </div>
+        
     </div>
   )
 }
