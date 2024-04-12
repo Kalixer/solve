@@ -26,24 +26,24 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
     }
     
     
-    const dataBase = [
-        {
-            title: `Area de Solve`,
-            parrafo: areaSolve,
-        },
-        {
-            title: `Cliente`,
-            parrafo: client,
-        },
-        {
-            title: `Tipo de casa`,
-            parrafo: houseType,
-        },
-        {
-            title: `Información`,
-            parrafo: info,
-        },
-    ]
+    // const dataBase = [
+    //     {
+    //         title: `Area de Solve`,
+    //         parrafo: areaSolve,
+    //     },
+    //     {
+    //         title: `Cliente`,
+    //         parrafo: client,
+    //     },
+    //     {
+    //         title: `Tipo de casa`,
+    //         parrafo: houseType,
+    //     },
+    //     {
+    //         title: `Información`,
+    //         parrafo: info,
+    //     },
+    // ]
     const dataBlocks = [
         (
             <div className='infoBlock'>

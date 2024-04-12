@@ -75,7 +75,7 @@ function OurClients({type}) {
 
   React.useEffect(() => {
     setClient(clientList[iterator])
-  }, [iterator])
+  }, [iterator])  // eslint-disable-line react-hooks/exhaustive-deps
 
 
   
