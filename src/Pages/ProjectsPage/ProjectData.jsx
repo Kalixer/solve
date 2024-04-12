@@ -21,7 +21,7 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
 
     }, [])
 
-    if(index == 4) {
+    if(index === 4) {
         setIndex(0)
     }
     
@@ -75,14 +75,14 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
 
     
 
-    if(index <= 3) {
-        let dataDisplay = (
-            <div className='infoBlock'>
-                <h3>{dataBase[index].title}</h3>
-                <p>{dataBase[index].parrafo}</p>
-            </div>
-        )
-    }
+    // if(index <= 3) {
+    //     let dataDisplay = (
+    //         <div className='infoBlock'>
+    //             <h3>{dataBase[index].title}</h3>
+    //             <p>{dataBase[index].parrafo}</p>
+    //         </div>
+    //     )
+    // }
 
 
 
