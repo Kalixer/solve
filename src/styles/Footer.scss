@@ -190,7 +190,13 @@
         width: 82vw;
     }
     .Footer .info .infoBlockContainer .infoBlock .socialMedia {
-        width: 30vw;
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Footer .info .infoBlock .socialMedia a {
+        width: 40px;
     }
     .Footer .info .infoInput{
         width: 92vw;

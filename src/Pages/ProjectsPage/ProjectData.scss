@@ -1,7 +1,7 @@
 .ProjectData {
     height: 160px;
     width: 80vw;
-
+    // min-width: 70vw;
     // border: solid 1px black;
     border-radius: 2rem;
 
@@ -34,20 +34,33 @@
     border: none;
 }
 .ProjectData .infoBlock h3 {
-    font-size: 3rem;
-    margin: 0 4rem;
-    padding-top: 1rem;
-    padding-bottom: .8rem;
-    border-bottom: solid 1px var(--antiflash-white);
-}
-.ProjectData .infoBlock p {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     margin-left: 4rem;
     padding-top: 1rem;
+    padding-bottom: .8rem;
+
+    // align-self: center;
+}
+.ProjectData .infoBlock p {
+    font-size: 1.4rem;
+    margin: 0 4rem;
+    padding-top: 1rem;
     padding-right: 2rem;
+    border-top: solid 1px var(--antiflash-white);
 }
 .mobView {
     display: none;
+}
+@media (max-width: 1024px) {
+    .ProjectData {
+        width: 90vw;   
+    }
+    .ProjectData .infoBlock h3 {
+        font-size: 2vw;
+    }
+    .ProjectData .infoBlock p {
+        font-size: 1.2vw;
+    }
 }
 @media (max-width: 500px) {
     .deskView {
@@ -57,7 +70,15 @@
         display: flex;
         flex-direction: column;
     }
-
+    .ProjectData {
+        width: 80vw;
+    }
+    .ProjectData .infoBlock h3 {
+        font-size: 2.4rem;
+    }
+    .ProjectData .infoBlock p {
+        font-size: 1.4rem;
+    }
     .ProjectData .infoBlock:nth-child(1) {
         width: 100%;   
         border: none;
