@@ -143,7 +143,15 @@
     color: var(--davys-gray);
 }
 
-
+@media (max-width:1040px) {
+    .BlogDisplayIntro .listView .info {
+        height: 50vh;
+        justify-content: space-evenly;
+    }
+    .BlogDisplayIntro .listView .info .texto h3 {
+        font-size: 2rem;
+    }
+}
 
 @media (max-width:500px) {
     .BlogDisplayIntro .listView {
