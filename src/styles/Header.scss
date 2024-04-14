@@ -108,7 +108,12 @@
     color: var(--khaki);
     border-color: var(--khaki);
 }
-
+@media (max-width: 1040px) {
+    .Header .display-laptop a ul {
+        font-size: 1.6rem;
+        margin: 0;
+    }
+}
 @media(max-width: 500px) {
     .Header .display-laptop {
         display: none;
