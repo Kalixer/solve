@@ -49,7 +49,14 @@
     text-align: center;
     font-size: 1.4rem;
 }
-
+@media (max-width: 1040px) {
+    .Pros .advantageBox .box {
+        width: 270px;
+    }
+    .Pros .advantageBox .box h3 {
+        font-size: 2.2rem;
+    }
+}
 @media (max-width: 500px) {
     .Pros {
         height: 100vh;
