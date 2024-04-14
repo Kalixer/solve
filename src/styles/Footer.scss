@@ -150,7 +150,14 @@
 .Footer .copyright {
     margin-top: 1rem;
 }
-
+@media (max-width: 1040px) {
+    .Footer .info .infoBlock:nth-child(1) {
+        width: 32vw;
+    }
+    .Footer .info .infoBlock .socialMedia {
+        width: 12vw;
+    }
+}
 @media (max-width: 500px) {
     .Footer {
         height: 60vh;
