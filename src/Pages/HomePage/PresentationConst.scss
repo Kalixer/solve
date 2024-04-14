@@ -71,6 +71,9 @@
 }
 
 @media (max-width: 1040px) {
+    .PresentationConst .divider {
+        clip-path: polygon(-1% 100%, -1% -1%, 100% 0%);
+    }
     .PresentationConst .constDescription {
         width: 50vw;
     }
