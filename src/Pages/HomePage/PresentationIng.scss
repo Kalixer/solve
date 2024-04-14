@@ -34,7 +34,7 @@
     filter: drop-shadow(0 0 8px rgb(82, 82, 82));
 }
 .PresentationIng .imageContainer .boxBack {
-    height: 45vh;
+    height: 48vh;
     width: 40%;
     background-color: grey;
     position: relative;
@@ -103,6 +103,38 @@
     background-color: white;
     color: grey;
     filter: drop-shadow(0 0 8px grey);
+}
+
+@media (max-width: 1040px) {
+    .PresentationIng .imageContainer {
+        justify-content: flex-start;
+        position: absolute;
+        left: 4vw;
+    }
+    .PresentationIng .imageContainer figure {
+        display: block;
+        height: 80vh;
+        width: 40vw;
+    }
+    .PresentationIng .imageContainer figure img {
+        width: 38vw;
+    }
+    .PresentationIng .imageContainer .boxBack {
+        width: 25vw;
+        left: 16vw;
+    }
+    .PresentationIng .imageContainer .boxFront {
+        width: 15vw;
+    }
+    .PresentationIng .constDescription {
+        width: 46vw;
+        position: absolute;
+        right: 2vw;
+    }
+    .PresentationIng .constDescription .texto {
+        width: 44vw;
+    }
+
 }
 
 @media (max-width:500px) {
