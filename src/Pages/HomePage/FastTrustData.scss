@@ -42,7 +42,7 @@
     width: 5vh;
 }
 .FastTrustData .fast-container .fast-block h3 {
-    font-size: 3.6vh;
+    font-size: 3.2vh;
     padding-top: 2rem;
 }
 .FastTrustData .fast-container .fast-block p {
@@ -50,7 +50,17 @@
     padding-top: 1rem;
     text-align: center;
 }
-
+@media (max-width: 1040px) {
+    .FastTrustData .fast-container .fast-block {
+        padding: 0rem 2rem;
+    }
+    .FastTrustData .fast-container .fast-block h3 {
+        font-size: 2.4vh;
+    }
+    .FastTrustData .fast-container .fast-block p {
+        font-size: 1.6vh;
+    }
+} 
 @media (max-width: 500px) {
     .FastTrustData {
         height: auto;
