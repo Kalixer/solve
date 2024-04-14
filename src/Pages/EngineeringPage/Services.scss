@@ -56,7 +56,24 @@
     object-fit: cover;
     filter: drop-shadow(0 0 8px grey);
 }
-
+@media (max-width: 1040px) {
+    .Services .servicesContainer .serviceBar h2 {
+        width: 70%;
+    }
+    .Services .servicesContainer .serviceBar {
+        margin: 4rem 0rem;
+        width: 40vw;
+    }
+    .Services .servicesContainer .imageContainer {
+        padding: 4rem 0rem 0rem 0;
+    }
+    .Services .servicesContainer .serviceBar .serviceBox li {
+        margin: 5rem 0 5rem 2rem;
+    }
+    .Services .servicesContainer .serviceBar .serviceBox li {
+        font-size: 1.6rem;
+    }
+}
 @media (max-width:500px) {
     .Services {
         height: 152vh;
