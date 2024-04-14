@@ -97,7 +97,24 @@
     cursor: pointer;
     color: white;
 }
-
+@media  (max-width:1040px) {
+    .OurClientsConstruction .clientContainer {
+        width: 37vw;
+        padding-left: 6vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .OurClientsConstruction .clientContainer .userComment {
+        padding-top: 0vh;
+    }
+    .OurClientsConstruction .clientContainer .proyectPanel {
+        width: 90%;
+    }
+    .OurClientsConstruction .clientContainer .proyectPanel button {
+        height: 48px;
+        width: 160px;
+    }
+}
 @media (max-width: 500px) {
     .OurClientsConstruction {
         height: 120vh;
