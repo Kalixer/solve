@@ -26,24 +26,6 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
     }
     
     
-    // const dataBase = [
-    //     {
-    //         title: `Area de Solve`,
-    //         parrafo: areaSolve,
-    //     },
-    //     {
-    //         title: `Cliente`,
-    //         parrafo: client,
-    //     },
-    //     {
-    //         title: `Tipo de casa`,
-    //         parrafo: houseType,
-    //     },
-    //     {
-    //         title: `Información`,
-    //         parrafo: info,
-    //     },
-    // ]
     const dataBlocks = [
         (
             <div className='infoBlock'>
@@ -102,7 +84,7 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
             </div>
 
             <div className='infoBlock'>
-                <h3>Tipo de casa</h3>
+                <h3>Tipo de trabajo</h3>
                 <p>{houseType}</p>
             </div>
 
