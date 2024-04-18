@@ -6,13 +6,23 @@ import { Description } from './Description'
 import { SlArrowLeft } from "react-icons/sl";
 import { SlArrowRight } from "react-icons/sl";
 
+// this is the DataBase
 import { projects } from '../../database/projects';
 
+import { MyContext } from '../../hooks/MyContext';
+
+
 function ProjectsPage() {
-    const project = projects[0]
+    const { typeProject } = React.useContext(MyContext)
+
+    // esto es para filtar los proyectos por area
+    const displayProjects = projects.filter(item => item.area === typeProject)
+
+    const project = displayProjects[0]
     const imagen = project.backgroundImg
     
     const review = project.reviewEs
+    
     
   return (
     <div className='ProjectsPage'>
