@@ -1,4 +1,5 @@
 import React from 'react'
+import { MyContext } from '../../hooks/MyContext';
 import './index.scss'
 import { Link } from 'react-router-dom';
 import { scrollToTop } from '../../utils/scrollToTop'
@@ -8,11 +9,10 @@ import { LuChevronLeft } from "react-icons/lu";
 import { LuChevronRight } from "react-icons/lu";
 
 import { clients } from '../../database/clients';
-// import { MyContext } from '../../hooks/MyContext';
 
-// const { setTypeProject } = React.useContext(MyContext)
 
 function OurClients({type}) {
+  const { setTypeProject } = React.useContext(MyContext)
 
   // inicializar la lista de clientes
   const clientList = []
@@ -79,8 +79,6 @@ function OurClients({type}) {
   React.useEffect(() => {
     setClient(clientList[iterator])
   }, [iterator])  // eslint-disable-line react-hooks/exhaustive-deps
-
-  console.log(type)
   
     return (
         <div className='OurClientsConstruction'>
@@ -94,7 +92,7 @@ function OurClients({type}) {
 
             <div className='proyectPanel'>
               <Link to='/projects' onClick={scrollToTop}>
-                <button>Ver todos los proyectos</button>
+                <button onClick={setTypeProject(type)}>Ver todos los proyectos</button>
               </Link>
               <div className='navButton'>  
                 <LuChevronLeft onClick={handleClickSustract}/>
