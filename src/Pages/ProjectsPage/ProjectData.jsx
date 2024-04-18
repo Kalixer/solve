@@ -19,7 +19,7 @@ function ProjectData({areaSolve, client, clientLogo='null', houseType, info}) {
             }
         }
 
-    }, [])
+    }, [index, intervalId])
 
     if(index === 4) {
         setIndex(0)
