@@ -33,10 +33,9 @@ function Description({areaSolve, review}) {
       }
     }
 
-    console.log(typeChanges)
-    console.log(unselected, selected)
+    // console.log(typeChanges)
+    // console.log(unselected, selected)
 
-    console.log()
     // const review = `"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestiae repudiandae, iste sed dolore fuga ipsa praesentium error doloribus! Asperiores est maiores inventore et adipisci vitae, nisi vero quam itaque."`
   return (
     <div className='Description'>
