@@ -8,6 +8,9 @@ import { LuChevronLeft } from "react-icons/lu";
 import { LuChevronRight } from "react-icons/lu";
 
 import { clients } from '../../database/clients';
+// import { MyContext } from '../../hooks/MyContext';
+
+// const { setTypeProject } = React.useContext(MyContext)
 
 function OurClients({type}) {
 
@@ -77,7 +80,7 @@ function OurClients({type}) {
     setClient(clientList[iterator])
   }, [iterator])  // eslint-disable-line react-hooks/exhaustive-deps
 
-
+  console.log(type)
   
     return (
         <div className='OurClientsConstruction'>
