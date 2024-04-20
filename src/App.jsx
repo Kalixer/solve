@@ -20,7 +20,8 @@ function App() {
     return (
       <>
         <MyContextProvider>            
-          <BrowserRouter basename='/solve'>
+          {/* <BrowserRouter basename='/solve'> */}
+          <BrowserRouter>
             <Layout>
               <Routes>
                 <Route exact path='/' element={<Home/>}/>

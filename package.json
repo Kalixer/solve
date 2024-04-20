@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "solve",
   "version": "0.1.0",
   "private": true,
@@ -74,6 +75,5 @@
     "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.4"
-  },
-  "homepage": "https://kalixer.github.io/solve"
+  }
 }
