@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/Footer.scss'
 
-import {ReactComponent as LogoSolve } from '/src/solveLogoMin.svg'
+import {ReactComponent as LogoSolve } from '../solveLogoMin.svg'
 
 import { SiWhatsapp } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
