@@ -110,7 +110,11 @@
     height: 33vh;
     width: 25vw;
 }
-.BlogDisplayGrid .gridView .image figure img {
+.BlogDisplayGrid .gridView .image a {
+    height: inherit;
+    width: inherit;
+}
+.BlogDisplayGrid .gridView .image a figure img {
     height: inherit;
     width: inherit;
     object-fit: cover;
@@ -129,6 +133,7 @@
 }
 .BlogDisplayGrid .gridView .info .texto h2 {
     font-size: 2rem;
+    color: black;
 }
 .BlogDisplayGrid .gridView .info .texto h3 {
     font-size: 1.4rem;
