@@ -70,10 +70,10 @@ function Header() {
     <div className='Header'>
       <div className='logoContainer' onClick={scrollToTop} onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <Link to='/'>
-          {(hover) 
+          {/* {(hover) 
             ? <LogoSolve key={'grey'} className='logoSolve' fill='var(--penn-blue)'/>
             : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
-          }
+          } */}
         <h1>SOLVE</h1>
         </Link>
       </div>
