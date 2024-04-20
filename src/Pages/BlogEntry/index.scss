@@ -50,3 +50,12 @@
     font-size: 2.2rem;
     margin: .8rem 0;
 }
+
+@media (max-width: 500px) {
+    .BlogEntry .writing .text-container .p-container {
+        width: 70vw;
+    }
+    .BlogEntry .writing .text-container p {
+        font-size: 1.8rem;
+    }
+}
