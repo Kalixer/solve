@@ -10,7 +10,7 @@ import { MyContext } from '../hooks/MyContext.js'
 function Header() {
   const { language, setLanguage } = React.useContext(MyContext)
   
-  // const [hover, setHover] = React.useState(false)
+  const [hover, setHover] = React.useState(false)
   const [resMenu, setResMenu] = React.useState(false)
 
 

@@ -10,7 +10,7 @@ import { SiInstagram } from "react-icons/si";
 import { scrollToTop } from '../utils/scrollToTop';
 
 function Footer() {
-  // const [hover, setHover] = React.useState(false)
+  const [hover, setHover] = React.useState(false)
 
 
   const logos = [
