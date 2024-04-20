@@ -4,7 +4,7 @@ import '../styles/Header.scss';
 import { scrollToTop } from '../utils/scrollToTop';
 import { MyContext } from '../hooks/MyContext.js'
 
-// import {ReactComponent as LogoSolve } from '/src/assets/solveLogo-min.svg'
+import {ReactComponent as LogoSolve } from '/src/solveLogoMin.svg'
 
 
 function Header() {
@@ -70,10 +70,10 @@ function Header() {
     <div className='Header'>
       <div className='logoContainer' onClick={scrollToTop} onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
         <Link to='/'>
-          {/* {(hover) 
+          {(hover) 
             ? <LogoSolve key={'grey'} className='logoSolve' fill='var(--penn-blue)'/>
             : <LogoSolve key={'white'} className='logoSolve' fill='white'/> 
-          } */}
+          }
         <h1>SOLVE</h1>
         </Link>
       </div>
