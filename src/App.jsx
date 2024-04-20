@@ -9,6 +9,7 @@ import { ConstructionPage } from './Pages/ConstructionPage';
 import { DevelopmentPage } from './Pages/DevelopmentPage';
 import { NotFound } from './Pages/NotFound';
 import { BlogPage } from './Pages/BlogPage';
+import { BlogEntry } from './Pages/BlogEntry/index.jsx';
 import { ContactPage } from './Pages/ContactPage/index.jsx';
 import { FAQs } from './Pages/FAQs/index.jsx';
 import { ProjectsPage } from './Pages/ProjectsPage/index.jsx';
@@ -27,6 +28,7 @@ function App() {
                 <Route exact path='/construction' element={<ConstructionPage/>}/>
                 <Route exact path='/architecture' element={<ArchitecturePage/>}/>
                 <Route exact path='/blog' element={<BlogPage/>}/>
+                <Route exact path='/blogEntry' element={<BlogEntry/>}/>
                 <Route exact path='/faqs' element={<FAQs/>}/>
                 <Route exact path='/contact' element={<ContactPage/>}/>
                 <Route exact path='/projects' element={<ProjectsPage/>}/>
