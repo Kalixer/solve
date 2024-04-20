@@ -47,6 +47,9 @@ function ProjectsPage() {
               setC_ProjectIndex(c_projectIndex - 1)
             }
             break;
+          default:
+            console.log('default')
+            break;
           }
     }
     const IndexModUp = () => {
@@ -66,6 +69,9 @@ function ProjectsPage() {
             setC_ProjectIndex(c_projectIndex + 1)
           }
         break;
+        default:
+          console.log('default')
+          break;
       }
       
     }
