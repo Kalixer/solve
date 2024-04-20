@@ -4,7 +4,7 @@ import '../styles/Header.scss';
 import { scrollToTop } from '../utils/scrollToTop';
 import { MyContext } from '../hooks/MyContext.js'
 
-import {ReactComponent as LogoSolve } from '/src/assets/solveLogo-min.svg'
+// import {ReactComponent as LogoSolve } from '/src/assets/solveLogo-min.svg'
 
 
 function Header() {
