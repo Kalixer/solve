@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import '../styles/Footer.scss'
 
-import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
+// import {ReactComponent as LogoSolve } from '../assets/solveLogo-min.svg'
 
 import { SiWhatsapp } from "react-icons/si";
 import { SiFacebook } from "react-icons/si";
@@ -58,10 +58,10 @@ function Footer() {
             
           
           <Link to='/' onMouseOver={() => setHover(true)} onMouseLeave={() => setHover(false)}>
-            {(hover) 
+            {/* {(hover) 
               ? <LogoSolve key={'grey'} onClick={scrollToTop} className='logoSolve' fill='var(--penn-blue)'/>
               : <LogoSolve key={'white'} onClick={scrollToTop} className='logoSolve' fill='white'/> 
-            }
+            } */}
             <h1>SOLVE</h1>
           </Link>
             
