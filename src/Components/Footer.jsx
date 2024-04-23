@@ -71,8 +71,8 @@ function Footer() {
           <div className='infoBlock infoContact'>
             <h3>Contact</h3>
             <div className='info_P'>
-              <p onClick={handleMail}>solve@solve.cl</p>
-              <a href="mailto:al.caceres.ag72@gmail.com" id="trucazo"> </a>
+              <p onClick={handleMail}>contacto@solve.cl</p>
+              <a href="mailto:contacto@solve.cl" id="trucazo"> </a>
               {/* <p></p> */}
               <Link to='https://wa.link/abicmz'>
                 <p>+569 7977 1139</p>
