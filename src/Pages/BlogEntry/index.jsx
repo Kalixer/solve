@@ -2,8 +2,10 @@ import React from 'react'
 
 import './index.scss'
 import { TextBlog } from './TextBlog'
+import { MoreRead } from './MoreRead'
 
 function BlogEntry() {
+
   return (
     <div className='BlogEntry'>
       
@@ -20,6 +22,8 @@ function BlogEntry() {
         </div>
 
       </section>
+
+      <MoreRead/>
 
     </div>
   )
