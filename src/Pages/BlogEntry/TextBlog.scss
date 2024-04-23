@@ -1,0 +1,48 @@
+.TextBlog {
+    display: flex;
+    flex-direction: column;
+}
+.TextBlog .h1-container {
+    // border: solid 1px blue;
+    border-bottom: black solid 2px;
+    margin-bottom: 2rem;
+} 
+.TextBlog .h1-container h1 {
+    font-size: 4.6rem;
+    padding-bottom: 1.6rem;
+    padding-left: 2rem;
+}
+.TextBlog .p-container {
+    // border: solid 1px blue;
+    width: 60vw;
+    align-self: center;
+}
+
+.TextBlog p {
+    font-size: 2.2rem;
+    margin: .8rem 0;
+}
+.TextBlog .imageContainer {
+    height: 50vh;
+    width: 60vw;
+    margin: 2rem 0;
+    align-self: center;
+}
+.TextBlog .imageContainer figure{
+    height: inherit;
+    width: inherit;
+}
+.TextBlog .imageContainer figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .TextBlog .p-container {
+        width: 70vw;
+    }
+    .TextBlog p {
+        font-size: 1.8rem;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './index.scss'
+import { TextBlog } from './TextBlog'
 
 function BlogEntry() {
   return (
@@ -15,17 +16,7 @@ function BlogEntry() {
       <section className='writing'>
 
         <div className='text-container'>
-          
-          <div className='h1-container'>
-            <h1>Blog Entry</h1>
-          </div>
-
-          <div className='p-container'>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet culpa facere officiis! Itaque, sed provident praesentium cumque quisquam quidem nesciunt! Alias quam possimus, dolores voluptatum reprehenderit eveniet at cumque recusandae!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet culpa facere officiis! Itaque, sed provident praesentium cumque quisquam quidem nesciunt! Alias quam possimus, dolores voluptatum reprehenderit eveniet at cumque recusandae!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet culpa facere officiis! Itaque, sed provident praesentium cumque quisquam quidem nesciunt! Alias quam possimus, dolores voluptatum reprehenderit eveniet at cumque recusandae!</p>
-          </div>
-
+          <TextBlog/>
         </div>
 
       </section>
