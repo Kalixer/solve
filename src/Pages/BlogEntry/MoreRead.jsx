@@ -27,10 +27,6 @@ function MoreRead() {
     }
   }
 
-  console.log('blogIndex: ', blogIndex)
-  console.log('blogIndexOne: ', blogIndexOne)
-  console.log('blogIndexTwo: ', blogIndexTwo)
-
   const summerUp = (text) => {
     let endChar = text.indexOf('.') + 1
     let descriptionSummed = text.slice(0, endChar)
