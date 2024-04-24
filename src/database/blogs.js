@@ -4,7 +4,23 @@ const entries = [
     author: 'Kalixer & ChatGPT',
     title: 'Metalcon: Ventajas y Usos',
     image: 'https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    description: 'Descubre el mundo de Metalcon y desentraña sus ventajas. Desde su origen hasta su aplicabilidad en diversos proyectos, sumérgete en este material versátil. Explora su resistencia, durabilidad y eficiencia, convirtiéndolo en una opción destacada en la construcción. Acompáñanos en este emocionante viaje hacia el universo de Metalcon'
+    description: 'Descubre el mundo de Metalcon y desentraña sus ventajas. Desde su origen hasta su aplicabilidad en diversos proyectos, sumérgete en este material versátil. Explora su resistencia, durabilidad y eficiencia, convirtiéndolo en una opción destacada en la construcción. Acompáñanos en este emocionante viaje hacia el universo de Metalcon',
+    content: [
+        {
+            type: 'paragraph',
+            data: [
+                'Este es un texto ejemplo de lo que debería ser un párrafo en el blog que quiero escribir, hola mamá', 
+                'Este es otro texto ejemplo de lo que debería ser un párrafo en el blog que quiero escribir'
+            ],
+        },
+        {
+            type: 'image',
+            src: [
+               'https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+            ],
+            alt: 'Cute cat laying down while sleeping',
+        }
+    ]
   },
   {
     index: 1,
