@@ -3,6 +3,7 @@ import './index.scss'
 import { IntroPicture } from '../../Components/IntroPicture'
 import { BlogContainer } from './BlogContainer'
 import { InfoIntro } from './InfoIntro'
+import { Navigate } from 'react-router-dom'
 
 function BlogPage() {
     const [displayList, setDisplayList] = React.useState(true)
@@ -25,6 +26,7 @@ function BlogPage() {
 
   return (
     <div className='BlogPage'>
+        <Navigate to='/blog/'></Navigate>
         <IntroPicture image={image} title={title} titleDesc={titleDesc}/>
         <InfoIntro toggleDisplay={toggleDisplay}/>
         <BlogContainer displayList={displayList}/>
