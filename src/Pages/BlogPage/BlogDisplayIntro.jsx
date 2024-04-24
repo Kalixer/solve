@@ -1,8 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './BlogDisplayIntro.scss'
+import { MyContext } from '../../hooks/MyContext'
 
-function BlogDisplayIntro({image, title, description, author, displayList}) {
+function BlogDisplayIntro({index, image, title, description, author, displayList}) {
+    
+    const {setBlogIndex} = React.useContext(MyContext)
+
+    const handleClick = () => {
+        setBlogIndex(index)
+    }
 
   return (
     <div className={displayList ? 'BlogDisplayIntro' : 'BlogDisplayGrid'}>
@@ -13,7 +20,7 @@ function BlogDisplayIntro({image, title, description, author, displayList}) {
 
             </section> */}
 
-            <section className='image' >
+            <section className='image' onClick={handleClick}>
                 <Link to='/blogEntry'>
                     <figure>
                         <img src={image} alt="" />
@@ -25,7 +32,7 @@ function BlogDisplayIntro({image, title, description, author, displayList}) {
 
                 <div className='texto'>
                     <Link to='/blogEntry'>
-                        <h2>{title}</h2>
+                        <h2 onClick={handleClick}>{title}</h2>
                     </Link>
                     <h3>{description}</h3>
                 </div>

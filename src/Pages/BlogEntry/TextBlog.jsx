@@ -1,11 +1,20 @@
 import React from 'react'
 import './TextBlog.scss'
+import { MyContext } from '../../hooks/MyContext'
+
+import { entries } from '../../database/blogs'
 
 function TextBlog() {
+
+  const {blogIndex} = React.useContext(MyContext)
+
+  const entry = entries[blogIndex]
+
   return (
     <div className='TextBlog'>
         <div className='h1-container'>
-          <h1>Blog Entry</h1>
+          <h1>{entry.title}</h1>
+          {/* <h1>Hello There</h1> */}
         </div>
         
         <div className='p-container'>

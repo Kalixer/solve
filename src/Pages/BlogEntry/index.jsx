@@ -4,14 +4,21 @@ import './index.scss'
 import { TextBlog } from './TextBlog'
 import { MoreRead } from './MoreRead'
 
-function BlogEntry() {
 
+import { MyContext } from '../../hooks/MyContext'
+import { entries } from '../../database/blogs'
+
+
+function BlogEntry() {
+  const {blogIndex} = React.useContext(MyContext)
+
+  const entry = entries[blogIndex]
   return (
     <div className='BlogEntry'>
       
       <section className='presentation'>
         <figure>
-          <img src="https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+          <img src={entry.image} alt="" />
         </figure>
       </section>
 

@@ -10,6 +10,7 @@ function MyContextProvider({children}) {
     const [unselected, setUnselected] = React.useState('false')
     const [e_projectIndex, setE_ProjectIndex] = React.useState(0)
     const [c_projectIndex, setC_ProjectIndex] = React.useState(0)
+    const [blogIndex, setBlogIndex] = React.useState(0)
     
   return (
     <MyContext.Provider value=
@@ -29,6 +30,8 @@ function MyContextProvider({children}) {
           setC_ProjectIndex, 
           e_projectIndex, 
           setE_ProjectIndex,
+          blogIndex, 
+          setBlogIndex,
         }
       }
     >
