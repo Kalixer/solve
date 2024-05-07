@@ -4,11 +4,13 @@ import '../styles/Header.scss';
 import { scrollToTop } from '../utils/scrollToTop';
 import { MyContext } from '../hooks/MyContext.js'
 
+import { headerLanguage } from '../database/language/header.js';
+
 import {ReactComponent as LogoSolve } from '../solveLogoMin.svg'
 
 
 function Header() {
-  const { language, setLanguage } = React.useContext(MyContext)
+  const { languageEs, setLanguageEs } = React.useContext(MyContext)
   
   const [hover, setHover] = React.useState(false)
   const [resMenu, setResMenu] = React.useState(false)
@@ -20,15 +22,15 @@ function Header() {
       path: '/'  
     },
     {
-      title: 'Ingeniería',
+      title: languageEs ? headerLanguage.Engineering_Es : headerLanguage.Engineering_En,
       path: '/engineering'  
     },
     {
-      title: 'Construcción',
+      title: languageEs ? headerLanguage.Constuction_Es : headerLanguage.Constuction_En,
       path: '/construction'  
     },
     {
-      title: 'Architecture',
+      title: languageEs ? headerLanguage.Architecture_Es : headerLanguage.Architecture_En,
       path: '/architecture'  
     },
     {
@@ -40,7 +42,7 @@ function Header() {
       path: '/faqs' 
     },
     {
-      title: 'Contacto',
+      title: languageEs ? headerLanguage.Contact_Es : headerLanguage.Contact_En,
       path: '/contact' 
     },
   ]
@@ -57,11 +59,11 @@ function Header() {
   }
   
   const toggleLang = () => {
-    if(language === 'es') {
-      setLanguage('en')
+    if(languageEs === true) {
+      setLanguageEs(false)
     }
-    if(language === 'en') {
-      setLanguage('es')
+    if(languageEs === false) {
+      setLanguageEs(true)
     }
   }
 
@@ -99,7 +101,7 @@ function Header() {
             <ul>{item.title}</ul>
           </Link>
         ))}
-        <button className='languageToggle' onClick={toggleLang}>{language}</button>
+        <button className='languageToggle' onClick={toggleLang}>{languageEs ? 'es' : 'en'}</button>
       </li>
     </div>
   )

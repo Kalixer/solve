@@ -3,7 +3,7 @@ import React from 'react'
 const MyContext = React.createContext()
 
 function MyContextProvider({children}) {
-    const [language, setLanguage] = React.useState('es')
+    const [languageEs, setLanguageEs] = React.useState(true)
     const [typeProject, setTypeProject] = React.useState('Engineering')
     const [typeChanges, setTypeChanges] = React.useState(0)
     const [selected, setSelected] = React.useState('true')
@@ -16,8 +16,8 @@ function MyContextProvider({children}) {
     <MyContext.Provider value=
       {
         {
-          language, 
-          setLanguage, 
+          languageEs, 
+          setLanguageEs, 
           typeProject, 
           setTypeProject,
           typeChanges,
