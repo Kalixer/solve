@@ -1,3 +1,14 @@
+/**
+ * 
+ * @param {} phrase 
+ * @param {*} target 
+ * @returns xml paragraph with the some words or pieces of words boldened 
+ * 
+ * usa un Array.forEach() para buscar una coincidencia
+ * Sigue evaluando si las siguientes letras coinciden
+ * Si no, sigue buscando hasta que termine de evaluar
+ */
+
 export const wordBolden = (phrase, target) => {
     const t_length = target.length // 5
     
